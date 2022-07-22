@@ -1,0 +1,9 @@
+1. Install python if you haven't already
+2. Create a virtualenv
+3. Activate virtualenv and install the requirements
+4. Run the server using python via the fake_server.py file, no extra arguments needed
+6. Endpoints are:
+-- /get_alerts GET
+--- will return 30 randomized alerts
+-- /authenticate POST
+--- will return "OK", this is just to simulate the initial connection to the source platform

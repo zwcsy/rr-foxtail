@@ -1,0 +1,4 @@
+- app: working directory, run inside a Python 3 virtualenv (no requirements.txt as of yet)
+- dest: dockerized elasticsearch, hive, cortex, and kibana, docker-compose as root user (ensure chmod 777 and chown root for vol folder)
+- src: mock helix server, run inside a Python 3 virtualenv
+- README.md: documentation will be developed relative to working progress

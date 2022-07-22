@@ -1,0 +1,4035 @@
+{
+  "meta": {
+    "count": 30,
+    "limit": 30,
+    "offset": 0,
+    "next": "https://apps.m0ckfireeye.com/m0ckhelix/id/m0ckhex123/api/v1/alerts/?assigned_to=00000000-0000-0000-0000-000000000000&limit=30&offset=30",
+    "previous": null
+  },
+  "results": [
+    {
+      "primary_id": 65,
+      "alert_type": {
+        "type_id": "e1401oi6o-j043-7d3h-3tvm-s49aadeyk32",
+        "category": "Network",
+        "detail_fields": [
+          "action",
+          "virus",
+          "srcipv4",
+          "srcisp",
+          "srcport",
+          "dstipv4",
+          "dstport",
+          "dstisp",
+          "dstcountry",
+          "rule",
+          "cnchost",
+          "devicename",
+          "md5",
+          "sha256",
+          "attackinfo",
+          "url",
+          "metaclass",
+          "class",
+          "meta_cbid",
+          "eventlog",
+          "intel_context"
+        ],
+        "is_default": false,
+        "is_internal": true,
+        "name": "NX Malware-Callback",
+        "summary_fields": [
+          "action",
+          "virus"
+        ],
+        "source": [
+          "srcipv4",
+          "srcipv6"
+        ],
+        "destination": [
+          "cnchost",
+          "dstipv4",
+          "dstipv6"
+        ],
+        "created_by": "abcdefghi-jklm-nopq-rstu-vwxyz123456",
+        "updated_by": "nrx2is400-04zq-eqe6-hza4-3201b5b0sl3"
+      },
+      "assigned_to": null,
+      "context": null,
+      "created_by": {
+        "id": "abcdefghi-jklm-nopq-rstu-vwxyz123456",
+        "avatar": "https://m0ck_avatar_url.com/avatar/123456789",
+        "name": "M0Ck User",
+        "username": "m0ck_user",
+        "primary_email": "m0ck_email@m0ck_fireEye.com"
+      },
+      "events_count": 1,
+      "notes_count": 1,
+      "queues": [
+        "Default Queue"
+      ],
+      "source_url": "https://m0ck-nxfe-instance/event_stream/events_for_bot?ev_id=213464",
+      "updated_by": {
+        "id": "nrx2is400-04zq-eqe6-hza4-3201b5b0sl3",
+        "avatar": "https://m0ck_avatar_url.com/avatar/402137791",
+        "name": "laterrica schurkamp",
+        "username": "laterrica_schurkamp",
+        "primary_email": "laterrica_schurkamp@m0ck_fireEye.com"
+      },
+      "organization": "m0ckhex123",
+      "risk_score": null,
+      "derived_risk": "Low",
+      "hx_device_versions": [
+        "8.7.9.332828"
+      ],
+      "created_at": "2022-07-19 11:01:17",
+      "updated_at": "2022-07-19 11:04:00",
+      "alert_threat": "Unknown",
+      "alert_type_details": {
+        "detail": {
+          "rule": "bot-command",
+          "virus": "trojan",
+          "action": "blocked",
+          "dstisp": "except apple llc.",
+          "cnchost": "crush.yahoo.extreme.net",
+          "dstipv4": "68.253.228.14",
+          "dstport": 53,
+          "srcipv4": "10.76.176.3",
+          "srcport": 52262,
+          "devicename": "m0ck-nxfe-instance",
+          "dstcountry": "mozambique"
+        },
+        "source": "10.76.176.3",
+        "summary": {
+          "virus": "trojan",
+          "action": "blocked"
+        },
+        "destination": "crush.yahoo.extreme.net"
+      },
+      "assigned_at": null,
+      "closed_reason": null,
+      "closed_state": "Unknown",
+      "confidence": "High",
+      "description": "A Malware Callback alert detects network activity that matches a malware command and control (C2) signature. This should only fire when a host is already compromised. The recommended action is to investigate the host and possibly remove it from the network. This activity will be blocked if the NX is in block mode.",
+      "events_threshold": 1,
+      "external_ips": [],
+      "external_ips_count": 0,
+      "info_links": [],
+      "internal_ips": [],
+      "internal_ips_count": 0,
+      "is_suppressed": false,
+      "is_threat": false,
+      "is_tuned": false,
+      "kill_chain": [
+        "3 - Delivery",
+        "4 - Exploitation"
+      ],
+      "message": "FIREEYE NX ALERT [Malware-Callback]",
+      "mitre_ids": [],
+      "metaclasses": {
+        "antivirus": 1
+      },
+      "products": {
+        "nx": 1
+      },
+      "risk": "Critical",
+      "risk_order": 4,
+      "seconds_threshold": 60,
+      "severity": "High",
+      "source_revision": 0,
+      "state": "Open",
+      "threat_changed_at": null,
+      "trigger_revision": 0,
+      "tuning_search": "",
+      "type": "fireeye_rule",
+      "asset_ids": [],
+      "threat_vector": []
+    },
+    {
+      "primary_id": 152,
+      "alert_type": {
+        "type_id": "e1401oi6o-j043-7d3h-3tvm-s49aadeyk32",
+        "category": "Network",
+        "detail_fields": [
+          "action",
+          "virus",
+          "srcipv4",
+          "srcisp",
+          "srcport",
+          "dstipv4",
+          "dstport",
+          "dstisp",
+          "dstcountry",
+          "rule",
+          "cnchost",
+          "devicename",
+          "md5",
+          "sha256",
+          "attackinfo",
+          "url",
+          "metaclass",
+          "class",
+          "meta_cbid",
+          "eventlog",
+          "intel_context"
+        ],
+        "is_default": false,
+        "is_internal": true,
+        "name": "NX Malware-Callback",
+        "summary_fields": [
+          "action",
+          "virus"
+        ],
+        "source": [
+          "srcipv4",
+          "srcipv6"
+        ],
+        "destination": [
+          "cnchost",
+          "dstipv4",
+          "dstipv6"
+        ],
+        "created_by": "abcdefghi-jklm-nopq-rstu-vwxyz123456",
+        "updated_by": "6q2tlqer5-xi12-7krm-9767-56092c2hcya"
+      },
+      "assigned_to": null,
+      "context": null,
+      "created_by": {
+        "id": "abcdefghi-jklm-nopq-rstu-vwxyz123456",
+        "avatar": "https://m0ck_avatar_url.com/avatar/123456789",
+        "name": "M0Ck User",
+        "username": "m0ck_user",
+        "primary_email": "m0ck_email@m0ck_fireEye.com"
+      },
+      "events_count": 14,
+      "notes_count": 0,
+      "queues": [
+        "Default Queue"
+      ],
+      "source_url": "https://m0ck-nxfe-instance/event_stream/events_for_bot?ev_id=161419",
+      "updated_by": {
+        "id": "6q2tlqer5-xi12-7krm-9767-56092c2hcya",
+        "avatar": "https://m0ck_avatar_url.com/avatar/980430808",
+        "name": "merced outzen",
+        "username": "merced_outzen",
+        "primary_email": "merced_outzen@m0ck_fireEye.com"
+      },
+      "organization": "m0ckhex123",
+      "risk_score": null,
+      "derived_risk": "Low",
+      "hx_device_versions": [
+        "8.7.9.332828"
+      ],
+      "created_at": "2022-07-19 11:03:13",
+      "updated_at": "2022-07-19 11:04:00",
+      "alert_threat": "Unknown",
+      "alert_type_details": {
+        "detail": {
+          "rule": "bot-command",
+          "virus": "trojan",
+          "action": "blocked",
+          "dstisp": "gnarly co.",
+          "cnchost": "blossom.bit",
+          "dstipv4": "194.214.69.97",
+          "dstport": 465,
+          "srcipv4": "10.219.28.149",
+          "srcport": 63588,
+          "devicename": "m0ck-nxfe-instance",
+          "dstcountry": "estonia"
+        },
+        "source": "10.219.28.149",
+        "summary": {
+          "virus": "trojan",
+          "action": "blocked"
+        },
+        "destination": "blossom.bit"
+      },
+      "assigned_at": null,
+      "closed_reason": null,
+      "closed_state": "Unknown",
+      "confidence": "High",
+      "description": "This rule alerts on Malware-Callback events generated by FireEye NX appliances.",
+      "events_threshold": 1,
+      "external_ips": [],
+      "external_ips_count": 0,
+      "info_links": [],
+      "internal_ips": [],
+      "internal_ips_count": 0,
+      "is_suppressed": false,
+      "is_threat": false,
+      "is_tuned": false,
+      "kill_chain": [
+        "6 - C2"
+      ],
+      "message": "FIREEYE NX ALERT [Malware-Callback]",
+      "mitre_ids": [],
+      "metaclasses": {
+        "antivirus": 14
+      },
+      "products": {
+        "nx": 14
+      },
+      "risk": "Medium",
+      "risk_order": 2,
+      "seconds_threshold": 60,
+      "severity": "Medium",
+      "source_revision": 0,
+      "state": "Open",
+      "threat_changed_at": null,
+      "trigger_revision": 0,
+      "tuning_search": "",
+      "type": "fireeye_rule",
+      "asset_ids": [],
+      "threat_vector": []
+    },
+    {
+      "primary_id": 930,
+      "alert_type": {
+        "type_id": "e1401oi6o-j043-7d3h-3tvm-s49aadeyk32",
+        "category": "Network",
+        "detail_fields": [
+          "action",
+          "virus",
+          "srcipv4",
+          "srcisp",
+          "srcport",
+          "dstipv4",
+          "dstport",
+          "dstisp",
+          "dstcountry",
+          "rule",
+          "cnchost",
+          "devicename",
+          "md5",
+          "sha256",
+          "attackinfo",
+          "url",
+          "metaclass",
+          "class",
+          "meta_cbid",
+          "eventlog",
+          "intel_context"
+        ],
+        "is_default": false,
+        "is_internal": true,
+        "name": "NX Malware-Callback",
+        "summary_fields": [
+          "action",
+          "virus"
+        ],
+        "source": [
+          "srcipv4",
+          "srcipv6"
+        ],
+        "destination": [
+          "cnchost",
+          "dstipv4",
+          "dstipv6"
+        ],
+        "created_by": "abcdefghi-jklm-nopq-rstu-vwxyz123456",
+        "updated_by": "3789si2h0-6583-342j-jean-7pujz45l152"
+      },
+      "assigned_to": null,
+      "context": null,
+      "created_by": {
+        "id": "abcdefghi-jklm-nopq-rstu-vwxyz123456",
+        "avatar": "https://m0ck_avatar_url.com/avatar/123456789",
+        "name": "M0Ck User",
+        "username": "m0ck_user",
+        "primary_email": "m0ck_email@m0ck_fireEye.com"
+      },
+      "events_count": 1,
+      "notes_count": 0,
+      "queues": [
+        "Default Queue"
+      ],
+      "source_url": "https://m0ck-nxfe-instance/event_stream/events_for_bot?ev_id=442486",
+      "updated_by": {
+        "id": "3789si2h0-6583-342j-jean-7pujz45l152",
+        "avatar": "https://m0ck_avatar_url.com/avatar/110653628",
+        "name": "shanah bondurant",
+        "username": "shanah_bondurant",
+        "primary_email": "shanah_bondurant@m0ck_fireEye.com"
+      },
+      "organization": "m0ckhex123",
+      "risk_score": null,
+      "derived_risk": "Low",
+      "hx_device_versions": [
+        "8.7.9.332828"
+      ],
+      "created_at": "2022-07-19 10:56:44",
+      "updated_at": "2022-07-19 11:04:00",
+      "alert_threat": "Unknown",
+      "alert_type_details": {
+        "detail": {
+          "rule": "bot-command",
+          "virus": "trojan",
+          "action": "blocked",
+          "dstisp": "tech telecom",
+          "cnchost": "transistor.org",
+          "dstipv4": "85.92.56.37",
+          "dstport": 25,
+          "srcipv4": "89.244.58.55",
+          "srcport": 55414,
+          "devicename": "m0ck-nxfe-instance",
+          "dstcountry": "colombia"
+        },
+        "source": "89.244.58.55",
+        "summary": {
+          "virus": "trojan",
+          "action": "blocked"
+        },
+        "destination": "transistor.org"
+      },
+      "assigned_at": null,
+      "closed_reason": null,
+      "closed_state": "Unknown",
+      "confidence": "High",
+      "description": "A Malware Callback alert detects network activity that matches a malware command and control (C2) signature. This should only fire when a host is already compromised. The recommended action is to investigate the host and possibly remove it from the network. This activity will be blocked if the NX is in block mode.",
+      "events_threshold": 1,
+      "external_ips": [],
+      "external_ips_count": 0,
+      "info_links": [],
+      "internal_ips": [],
+      "internal_ips_count": 0,
+      "is_suppressed": false,
+      "is_threat": false,
+      "is_tuned": false,
+      "kill_chain": [
+        "3 - Delivery",
+        "4 - Exploitation"
+      ],
+      "message": "FIREEYE NX ALERT [Malware-Callback]",
+      "mitre_ids": [],
+      "metaclasses": {
+        "antivirus": 1
+      },
+      "products": {
+        "nx": 1
+      },
+      "risk": "Critical",
+      "risk_order": 4,
+      "seconds_threshold": 60,
+      "severity": "High",
+      "source_revision": 0,
+      "state": "Open",
+      "threat_changed_at": null,
+      "trigger_revision": 0,
+      "tuning_search": "",
+      "type": "fireeye_rule",
+      "asset_ids": [],
+      "threat_vector": []
+    },
+    {
+      "primary_id": 749,
+      "alert_type": {
+        "type_id": "l2lg2142b-p05r-9q1f-05f3-2e67i0k0lau",
+        "category": "Network",
+        "detail_fields": [
+          "action",
+          "virus",
+          "srcipv4",
+          "srcisp",
+          "srcport",
+          "rule",
+          "cnchost",
+          "md5",
+          "sha256",
+          "attackinfo",
+          "url",
+          "devicename",
+          "meta_cbid",
+          "eventlog",
+          "intel_context"
+        ],
+        "is_default": false,
+        "is_internal": true,
+        "name": "NX Domain-Match",
+        "summary_fields": [
+          "action",
+          "virus"
+        ],
+        "source": [
+          "srcipv4",
+          "srcipv6"
+        ],
+        "destination": [
+          "cnchost",
+          "dstipv4",
+          "dstipv6"
+        ],
+        "created_by": "abcdefghi-jklm-nopq-rstu-vwxyz123456",
+        "updated_by": "6q2tlqer5-xi12-7krm-9767-56092c2hcya"
+      },
+      "assigned_to": null,
+      "context": null,
+      "created_by": {
+        "id": "abcdefghi-jklm-nopq-rstu-vwxyz123456",
+        "avatar": "https://m0ck_avatar_url.com/avatar/123456789",
+        "name": "M0Ck User",
+        "username": "m0ck_user",
+        "primary_email": "m0ck_email@m0ck_fireEye.com"
+      },
+      "events_count": 1,
+      "notes_count": 0,
+      "queues": [
+        "Default Queue"
+      ],
+      "source_url": "https://m0ck-nxfe-instance/event_stream/events_for_bot?ev_id=892455",
+      "updated_by": {
+        "id": "6q2tlqer5-xi12-7krm-9767-56092c2hcya",
+        "avatar": "https://m0ck_avatar_url.com/avatar/980430808",
+        "name": "merced outzen",
+        "username": "merced_outzen",
+        "primary_email": "merced_outzen@m0ck_fireEye.com"
+      },
+      "organization": "m0ckhex123",
+      "risk_score": null,
+      "derived_risk": "Low",
+      "hx_device_versions": [
+        "8.7.9.332828"
+      ],
+      "created_at": "2022-07-19 11:00:59",
+      "updated_at": "2022-07-19 11:04:00",
+      "alert_threat": "Unknown",
+      "alert_type_details": {
+        "detail": {
+          "rule": "blacklist",
+          "virus": "trojan",
+          "action": "notified",
+          "cnchost": "nothing.blaze.org",
+          "srcipv4": "192.168.92.162",
+          "srcport": 62275,
+          "devicename": "m0ck-nxfe-instance"
+        },
+        "source": "192.168.92.162",
+        "summary": {
+          "virus": "trojan",
+          "action": "notified"
+        },
+        "destination": "nothing.blaze.org"
+      },
+      "assigned_at": null,
+      "closed_reason": null,
+      "closed_state": "Unknown",
+      "confidence": "High",
+      "description": "This rule alerts on Domain-Match events generated by FireEye NX appliances.",
+      "events_threshold": 1,
+      "external_ips": [],
+      "external_ips_count": 0,
+      "info_links": [],
+      "internal_ips": [],
+      "internal_ips_count": 0,
+      "is_suppressed": false,
+      "is_threat": false,
+      "is_tuned": false,
+      "kill_chain": [
+        "3 - Delivery",
+        "4 - Exploitation",
+        "6 - C2"
+      ],
+      "message": "FIREEYE NX ALERT [Domain-Match]",
+      "mitre_ids": [],
+      "metaclasses": {
+        "antivirus": 1
+      },
+      "products": {
+        "nx": 1
+      },
+      "risk": "Medium",
+      "risk_order": 2,
+      "seconds_threshold": 60,
+      "severity": "Medium",
+      "source_revision": 0,
+      "state": "Open",
+      "threat_changed_at": null,
+      "trigger_revision": 0,
+      "tuning_search": "",
+      "type": "fireeye_rule",
+      "asset_ids": [],
+      "threat_vector": []
+    },
+    {
+      "primary_id": 182,
+      "alert_type": {
+        "type_id": "l2lg2142b-p05r-9q1f-05f3-2e67i0k0lau",
+        "category": "Network",
+        "detail_fields": [
+          "action",
+          "virus",
+          "srcipv4",
+          "srcisp",
+          "srcport",
+          "rule",
+          "cnchost",
+          "md5",
+          "sha256",
+          "attackinfo",
+          "url",
+          "devicename",
+          "meta_cbid",
+          "eventlog",
+          "intel_context"
+        ],
+        "is_default": false,
+        "is_internal": true,
+        "name": "NX Domain-Match",
+        "summary_fields": [
+          "action",
+          "virus"
+        ],
+        "source": [
+          "srcipv4",
+          "srcipv6"
+        ],
+        "destination": [
+          "cnchost",
+          "dstipv4",
+          "dstipv6"
+        ],
+        "created_by": "abcdefghi-jklm-nopq-rstu-vwxyz123456",
+        "updated_by": "fvu4sn4zr-5106-f6ry-803g-vn70a4g7046"
+      },
+      "assigned_to": null,
+      "context": null,
+      "created_by": {
+        "id": "abcdefghi-jklm-nopq-rstu-vwxyz123456",
+        "avatar": "https://m0ck_avatar_url.com/avatar/123456789",
+        "name": "M0Ck User",
+        "username": "m0ck_user",
+        "primary_email": "m0ck_email@m0ck_fireEye.com"
+      },
+      "events_count": 1,
+      "notes_count": 0,
+      "queues": [
+        "Default Queue"
+      ],
+      "source_url": "https://m0ck-nxfe-instance/event_stream/events_for_bot?ev_id=633260",
+      "updated_by": {
+        "id": "fvu4sn4zr-5106-f6ry-803g-vn70a4g7046",
+        "avatar": "https://m0ck_avatar_url.com/avatar/480612600",
+        "name": "claudell olan",
+        "username": "claudell_olan",
+        "primary_email": "claudell_olan@m0ck_fireEye.com"
+      },
+      "organization": "m0ckhex123",
+      "risk_score": null,
+      "derived_risk": "Low",
+      "hx_device_versions": [
+        "8.7.9.332828"
+      ],
+      "created_at": "2022-07-19 11:01:40",
+      "updated_at": "2022-07-19 11:04:00",
+      "alert_threat": "Unknown",
+      "alert_type_details": {
+        "detail": {
+          "rule": "blacklist",
+          "virus": "trojan",
+          "action": "notified",
+          "cnchost": "power.talks.com",
+          "srcipv4": "10.80.239.18",
+          "srcport": 53750,
+          "devicename": "m0ck-nxfe-instance"
+        },
+        "source": "10.80.239.18",
+        "summary": {
+          "virus": "trojan",
+          "action": "notified"
+        },
+        "destination": "power.talks.com"
+      },
+      "assigned_at": null,
+      "closed_reason": null,
+      "closed_state": "Unknown",
+      "confidence": "High",
+      "description": "A Domain Match event detects when a client has requested DNS to resolve a known malicious hostname. This alert just means that DNS was resolved. It does not indicate that any malicious payload was downloaded. Since this alert does not confirm a compromise, it will take additional work to determine the level of response needed. Several hits from the same source to unique hostnames may be a better indicator of a compromised machine. This activity will not be blocked if the NX is in block mode.",
+      "events_threshold": 1,
+      "external_ips": [],
+      "external_ips_count": 0,
+      "info_links": [],
+      "internal_ips": [],
+      "internal_ips_count": 0,
+      "is_suppressed": false,
+      "is_threat": false,
+      "is_tuned": false,
+      "kill_chain": [
+        "3 - Delivery",
+        "4 - Exploitation"
+      ],
+      "message": "FIREEYE NX ALERT [Domain-Match]",
+      "mitre_ids": [],
+      "metaclasses": {
+        "antivirus": 1
+      },
+      "products": {
+        "nx": 1
+      },
+      "risk": "Low",
+      "risk_order": 1,
+      "seconds_threshold": 60,
+      "severity": "Low",
+      "source_revision": 0,
+      "state": "Open",
+      "threat_changed_at": null,
+      "trigger_revision": 0,
+      "tuning_search": "",
+      "type": "fireeye_rule",
+      "asset_ids": [],
+      "threat_vector": []
+    },
+    {
+      "primary_id": 676,
+      "alert_type": {
+        "type_id": "l2lg2142b-p05r-9q1f-05f3-2e67i0k0lau",
+        "category": "Network",
+        "detail_fields": [
+          "action",
+          "virus",
+          "srcipv4",
+          "srcisp",
+          "srcport",
+          "rule",
+          "cnchost",
+          "md5",
+          "sha256",
+          "attackinfo",
+          "url",
+          "devicename",
+          "meta_cbid",
+          "eventlog",
+          "intel_context"
+        ],
+        "is_default": false,
+        "is_internal": true,
+        "name": "NX Domain-Match",
+        "summary_fields": [
+          "action",
+          "virus"
+        ],
+        "source": [
+          "srcipv4",
+          "srcipv6"
+        ],
+        "destination": [
+          "cnchost",
+          "dstipv4",
+          "dstipv6"
+        ],
+        "created_by": "abcdefghi-jklm-nopq-rstu-vwxyz123456",
+        "updated_by": "pp22w8k3u-47b6-g436-e3rh-xb65y45ln5e"
+      },
+      "assigned_to": null,
+      "context": null,
+      "created_by": {
+        "id": "abcdefghi-jklm-nopq-rstu-vwxyz123456",
+        "avatar": "https://m0ck_avatar_url.com/avatar/123456789",
+        "name": "M0Ck User",
+        "username": "m0ck_user",
+        "primary_email": "m0ck_email@m0ck_fireEye.com"
+      },
+      "events_count": 3,
+      "notes_count": 0,
+      "queues": [
+        "Default Queue"
+      ],
+      "source_url": "https://m0ck-nxfe-instance/event_stream/events_for_bot?ev_id=864246",
+      "updated_by": {
+        "id": "pp22w8k3u-47b6-g436-e3rh-xb65y45ln5e",
+        "avatar": "https://m0ck_avatar_url.com/avatar/693405801",
+        "name": "liv colaw",
+        "username": "liv_colaw",
+        "primary_email": "liv_colaw@m0ck_fireEye.com"
+      },
+      "organization": "m0ckhex123",
+      "risk_score": null,
+      "derived_risk": "Low",
+      "hx_device_versions": [
+        "8.7.9.332828"
+      ],
+      "created_at": "2022-07-19 11:00:37",
+      "updated_at": "2022-07-19 11:04:00",
+      "alert_threat": "Unknown",
+      "alert_type_details": {
+        "detail": {
+          "rule": "blacklist",
+          "virus": "trojan",
+          "action": "notified",
+          "cnchost": "draw.bit",
+          "srcipv4": "192.168.76.157",
+          "srcport": 53241,
+          "devicename": "m0ck-nxfe-instance"
+        },
+        "source": "192.168.76.157",
+        "summary": {
+          "virus": "trojan",
+          "action": "notified"
+        },
+        "destination": "draw.bit"
+      },
+      "assigned_at": null,
+      "closed_reason": null,
+      "closed_state": "Unknown",
+      "confidence": "High",
+      "description": "This rule alerts on Domain-Match events generated by FireEye NX appliances.",
+      "events_threshold": 1,
+      "external_ips": [],
+      "external_ips_count": 0,
+      "info_links": [],
+      "internal_ips": [],
+      "internal_ips_count": 0,
+      "is_suppressed": false,
+      "is_threat": false,
+      "is_tuned": false,
+      "kill_chain": [
+        "3 - Delivery",
+        "4 - Exploitation",
+        "6 - C2"
+      ],
+      "message": "FIREEYE NX ALERT [Domain-Match]",
+      "mitre_ids": [],
+      "metaclasses": {
+        "antivirus": 3
+      },
+      "products": {
+        "nx": 3
+      },
+      "risk": "Medium",
+      "risk_order": 2,
+      "seconds_threshold": 60,
+      "severity": "Medium",
+      "source_revision": 0,
+      "state": "Open",
+      "threat_changed_at": null,
+      "trigger_revision": 0,
+      "tuning_search": "",
+      "type": "fireeye_rule",
+      "asset_ids": [],
+      "threat_vector": []
+    },
+    {
+      "primary_id": 330,
+      "alert_type": {
+        "type_id": "l2lg2142b-p05r-9q1f-05f3-2e67i0k0lau",
+        "category": "Network",
+        "detail_fields": [
+          "action",
+          "virus",
+          "srcipv4",
+          "srcisp",
+          "srcport",
+          "rule",
+          "cnchost",
+          "md5",
+          "sha256",
+          "attackinfo",
+          "url",
+          "devicename",
+          "meta_cbid",
+          "eventlog",
+          "intel_context"
+        ],
+        "is_default": false,
+        "is_internal": true,
+        "name": "NX Domain-Match",
+        "summary_fields": [
+          "action",
+          "virus"
+        ],
+        "source": [
+          "srcipv4",
+          "srcipv6"
+        ],
+        "destination": [
+          "cnchost",
+          "dstipv4",
+          "dstipv6"
+        ],
+        "created_by": "abcdefghi-jklm-nopq-rstu-vwxyz123456",
+        "updated_by": "2v5p7fg2r-0z6c-60il-hp3p-p5z9539ujlw"
+      },
+      "assigned_to": null,
+      "context": null,
+      "created_by": {
+        "id": "abcdefghi-jklm-nopq-rstu-vwxyz123456",
+        "avatar": "https://m0ck_avatar_url.com/avatar/123456789",
+        "name": "M0Ck User",
+        "username": "m0ck_user",
+        "primary_email": "m0ck_email@m0ck_fireEye.com"
+      },
+      "events_count": 1,
+      "notes_count": 0,
+      "queues": [
+        "Default Queue"
+      ],
+      "source_url": "https://m0ck-nxfe-instance/event_stream/events_for_bot?ev_id=995744",
+      "updated_by": {
+        "id": "2v5p7fg2r-0z6c-60il-hp3p-p5z9539ujlw",
+        "avatar": "https://m0ck_avatar_url.com/avatar/162219966",
+        "name": "carnella jolly",
+        "username": "carnella_jolly",
+        "primary_email": "carnella_jolly@m0ck_fireEye.com"
+      },
+      "organization": "m0ckhex123",
+      "risk_score": null,
+      "derived_risk": "Low",
+      "hx_device_versions": [
+        "8.7.9.332828"
+      ],
+      "created_at": "2022-07-19 11:02:39",
+      "updated_at": "2022-07-19 11:04:00",
+      "alert_threat": "Unknown",
+      "alert_type_details": {
+        "detail": {
+          "rule": "blacklist",
+          "virus": "trojan",
+          "action": "notified",
+          "cnchost": "unlimited.repositories.communications.bit",
+          "srcipv4": "218.246.20.77",
+          "srcport": 64597,
+          "devicename": "m0ck-nxfe-instance"
+        },
+        "source": "218.246.20.77",
+        "summary": {
+          "virus": "trojan",
+          "action": "notified"
+        },
+        "destination": "unlimited.repositories.communications.bit"
+      },
+      "assigned_at": null,
+      "closed_reason": null,
+      "closed_state": "Unknown",
+      "confidence": "High",
+      "description": "A Domain Match event detects when a client has requested DNS to resolve a known malicious hostname. This alert just means that DNS was resolved. It does not indicate that any malicious payload was downloaded. Since this alert does not confirm a compromise, it will take additional work to determine the level of response needed. Several hits from the same source to unique hostnames may be a better indicator of a compromised machine. This activity will not be blocked if the NX is in block mode.",
+      "events_threshold": 1,
+      "external_ips": [],
+      "external_ips_count": 0,
+      "info_links": [],
+      "internal_ips": [],
+      "internal_ips_count": 0,
+      "is_suppressed": false,
+      "is_threat": false,
+      "is_tuned": false,
+      "kill_chain": [
+        "3 - Delivery",
+        "4 - Exploitation"
+      ],
+      "message": "FIREEYE NX ALERT [Domain-Match]",
+      "mitre_ids": [],
+      "metaclasses": {
+        "antivirus": 1
+      },
+      "products": {
+        "nx": 1
+      },
+      "risk": "Low",
+      "risk_order": 1,
+      "seconds_threshold": 60,
+      "severity": "Low",
+      "source_revision": 0,
+      "state": "Open",
+      "threat_changed_at": null,
+      "trigger_revision": 0,
+      "tuning_search": "",
+      "type": "fireeye_rule",
+      "asset_ids": [],
+      "threat_vector": []
+    },
+    {
+      "primary_id": 730,
+      "alert_type": {
+        "type_id": "2najq31c3-ps99-74h1-qd85-gw869223ib7",
+        "category": "Network",
+        "detail_fields": [
+          "action",
+          "virus",
+          "srcipv4",
+          "srcisp",
+          "srcport",
+          "dstipv4",
+          "dstport",
+          "dstisp",
+          "dstcountry",
+          "rule",
+          "cnchost",
+          "md5",
+          "sha256",
+          "class",
+          "metaclass",
+          "attackinfo",
+          "url",
+          "devicename",
+          "meta_cbid",
+          "eventlog",
+          "intel_context"
+        ],
+        "is_default": false,
+        "is_internal": true,
+        "name": "NX Infection-Match",
+        "summary_fields": [
+          "action",
+          "virus"
+        ],
+        "source": [
+          "srcipv4",
+          "srcipv6"
+        ],
+        "destination": [
+          "cnchost",
+          "dstipv4",
+          "dstipv6"
+        ],
+        "created_by": "abcdefghi-jklm-nopq-rstu-vwxyz123456",
+        "updated_by": "t160qn787-8tnu-5813-m6oh-f1so1kz8wv5"
+      },
+      "assigned_to": null,
+      "context": null,
+      "created_by": {
+        "id": "abcdefghi-jklm-nopq-rstu-vwxyz123456",
+        "avatar": "https://m0ck_avatar_url.com/avatar/123456789",
+        "name": "M0Ck User",
+        "username": "m0ck_user",
+        "primary_email": "m0ck_email@m0ck_fireEye.com"
+      },
+      "events_count": 5,
+      "notes_count": 0,
+      "queues": [
+        "Default Queue"
+      ],
+      "source_url": "https://m0ck-nxfe-instance/event_stream/events_for_bot?ev_id=818295",
+      "updated_by": {
+        "id": "t160qn787-8tnu-5813-m6oh-f1so1kz8wv5",
+        "avatar": "https://m0ck_avatar_url.com/avatar/632918536",
+        "name": "kedrick cusumano",
+        "username": "kedrick_cusumano",
+        "primary_email": "kedrick_cusumano@m0ck_fireEye.com"
+      },
+      "organization": "m0ckhex123",
+      "risk_score": null,
+      "derived_risk": "Low",
+      "hx_device_versions": [
+        "8.7.9.332828"
+      ],
+      "created_at": "2022-07-19 10:55:58",
+      "updated_at": "2022-07-19 11:04:01",
+      "alert_threat": "Unknown",
+      "alert_type_details": {
+        "detail": {
+          "rule": "bot-command",
+          "virus": "malicious.url",
+          "action": "blocked",
+          "dstisp": "talks crush llc.",
+          "cnchost": "74.200.112.192",
+          "dstipv4": "74.200.112.192",
+          "dstport": 25,
+          "srcipv4": "10.227.27.171",
+          "srcport": 62292,
+          "devicename": "m0ck-nxfe-instance",
+          "dstcountry": "belarus"
+        },
+        "source": "10.227.27.171",
+        "summary": {
+          "virus": "malicious.url",
+          "action": "blocked"
+        },
+        "destination": "74.200.112.192"
+      },
+      "assigned_at": null,
+      "closed_reason": null,
+      "closed_state": "Unknown",
+      "confidence": "High",
+      "description": "This rule alerts on Infection-Match events generated by FireEye NX appliances.",
+      "events_threshold": 1,
+      "external_ips": [],
+      "external_ips_count": 0,
+      "info_links": [],
+      "internal_ips": [],
+      "internal_ips_count": 0,
+      "is_suppressed": false,
+      "is_threat": false,
+      "is_tuned": false,
+      "kill_chain": [
+        "3 - Delivery",
+        "4 - Exploitation"
+      ],
+      "message": "FIREEYE NX ALERT [Infection-Match]",
+      "mitre_ids": [],
+      "metaclasses": {
+        "antivirus": 5
+      },
+      "products": {
+        "nx": 5
+      },
+      "risk": "Medium",
+      "risk_order": 2,
+      "seconds_threshold": 60,
+      "severity": "Medium",
+      "source_revision": 0,
+      "state": "Open",
+      "threat_changed_at": null,
+      "trigger_revision": 0,
+      "tuning_search": "",
+      "type": "fireeye_rule",
+      "asset_ids": [],
+      "threat_vector": []
+    },
+    {
+      "primary_id": 717,
+      "alert_type": {
+        "type_id": "2najq31c3-ps99-74h1-qd85-gw869223ib7",
+        "category": "Network",
+        "detail_fields": [
+          "action",
+          "virus",
+          "srcipv4",
+          "srcisp",
+          "srcport",
+          "dstipv4",
+          "dstport",
+          "dstisp",
+          "dstcountry",
+          "rule",
+          "cnchost",
+          "md5",
+          "sha256",
+          "class",
+          "metaclass",
+          "attackinfo",
+          "url",
+          "devicename",
+          "meta_cbid",
+          "eventlog",
+          "intel_context"
+        ],
+        "is_default": false,
+        "is_internal": true,
+        "name": "NX Infection-Match",
+        "summary_fields": [
+          "action",
+          "virus"
+        ],
+        "source": [
+          "srcipv4",
+          "srcipv6"
+        ],
+        "destination": [
+          "cnchost",
+          "dstipv4",
+          "dstipv6"
+        ],
+        "created_by": "abcdefghi-jklm-nopq-rstu-vwxyz123456",
+        "updated_by": "5dp19088a-wp3k-7p71-8df9-9tn6256il7e"
+      },
+      "assigned_to": null,
+      "context": null,
+      "created_by": {
+        "id": "abcdefghi-jklm-nopq-rstu-vwxyz123456",
+        "avatar": "https://m0ck_avatar_url.com/avatar/123456789",
+        "name": "M0Ck User",
+        "username": "m0ck_user",
+        "primary_email": "m0ck_email@m0ck_fireEye.com"
+      },
+      "events_count": 1,
+      "notes_count": 0,
+      "queues": [
+        "Default Queue"
+      ],
+      "source_url": "https://m0ck-nxfe-instance/event_stream/events_for_bot?ev_id=414784",
+      "updated_by": {
+        "id": "5dp19088a-wp3k-7p71-8df9-9tn6256il7e",
+        "avatar": "https://m0ck_avatar_url.com/avatar/878431398",
+        "name": "cj beerbohm",
+        "username": "cj_beerbohm",
+        "primary_email": "cj_beerbohm@m0ck_fireEye.com"
+      },
+      "organization": "m0ckhex123",
+      "risk_score": null,
+      "derived_risk": "Low",
+      "hx_device_versions": [
+        "8.7.9.332828"
+      ],
+      "created_at": "2022-07-19 10:54:03",
+      "updated_at": "2022-07-19 11:04:01",
+      "alert_threat": "Unknown",
+      "alert_type_details": {
+        "detail": {
+          "rule": "bot-command",
+          "virus": "malicious.url",
+          "action": "blocked",
+          "dstisp": "uprising shadow bloom telecom",
+          "cnchost": "67.82.195.39",
+          "dstipv4": "67.82.195.39",
+          "dstport": 21,
+          "srcipv4": "172.20.55.73",
+          "srcport": 61440,
+          "devicename": "m0ck-nxfe-instance",
+          "dstcountry": "australia"
+        },
+        "source": "172.20.55.73",
+        "summary": {
+          "virus": "malicious.url",
+          "action": "blocked"
+        },
+        "destination": "67.82.195.39"
+      },
+      "assigned_at": null,
+      "closed_reason": null,
+      "closed_state": "Unknown",
+      "confidence": "High",
+      "description": "An Infection Match event detects when a host accesses a URL that is known to be malicious. These alerts mean that a URL was accessed, but does not confirm that malicious payload was actually downloaded. If malicious payload was downloaded, it still may not mean the host is compromised. For example, the malicious may contain an exploit the host is patched for. These events will be blocked if the NX is in block mode.",
+      "events_threshold": 1,
+      "external_ips": [],
+      "external_ips_count": 0,
+      "info_links": [],
+      "internal_ips": [],
+      "internal_ips_count": 0,
+      "is_suppressed": false,
+      "is_threat": false,
+      "is_tuned": false,
+      "kill_chain": [
+        "3 - Delivery",
+        "4 - Exploitation"
+      ],
+      "message": "FIREEYE NX ALERT [Infection-Match]",
+      "mitre_ids": [],
+      "metaclasses": {
+        "antivirus": 1
+      },
+      "products": {
+        "nx": 1
+      },
+      "risk": "Low",
+      "risk_order": 1,
+      "seconds_threshold": 60,
+      "severity": "Low",
+      "source_revision": 0,
+      "state": "Open",
+      "threat_changed_at": null,
+      "trigger_revision": 0,
+      "tuning_search": "",
+      "type": "fireeye_rule",
+      "asset_ids": [],
+      "threat_vector": []
+    },
+    {
+      "primary_id": 953,
+      "alert_type": {
+        "type_id": "l2lg2142b-p05r-9q1f-05f3-2e67i0k0lau",
+        "category": "Network",
+        "detail_fields": [
+          "action",
+          "virus",
+          "srcipv4",
+          "srcisp",
+          "srcport",
+          "rule",
+          "cnchost",
+          "md5",
+          "sha256",
+          "attackinfo",
+          "url",
+          "devicename",
+          "meta_cbid",
+          "eventlog",
+          "intel_context"
+        ],
+        "is_default": false,
+        "is_internal": true,
+        "name": "NX Domain-Match",
+        "summary_fields": [
+          "action",
+          "virus"
+        ],
+        "source": [
+          "srcipv4",
+          "srcipv6"
+        ],
+        "destination": [
+          "cnchost",
+          "dstipv4",
+          "dstipv6"
+        ],
+        "created_by": "abcdefghi-jklm-nopq-rstu-vwxyz123456",
+        "updated_by": "enoivft01-bzhe-iy25-40df-iw2dh9r65r7"
+      },
+      "assigned_to": null,
+      "context": null,
+      "created_by": {
+        "id": "abcdefghi-jklm-nopq-rstu-vwxyz123456",
+        "avatar": "https://m0ck_avatar_url.com/avatar/123456789",
+        "name": "M0Ck User",
+        "username": "m0ck_user",
+        "primary_email": "m0ck_email@m0ck_fireEye.com"
+      },
+      "events_count": 1,
+      "notes_count": 0,
+      "queues": [
+        "Default Queue"
+      ],
+      "source_url": "https://m0ck-nxfe-instance/event_stream/events_for_bot?ev_id=443050",
+      "updated_by": {
+        "id": "enoivft01-bzhe-iy25-40df-iw2dh9r65r7",
+        "avatar": "https://m0ck_avatar_url.com/avatar/560555963",
+        "name": "verlin aniol",
+        "username": "verlin_aniol",
+        "primary_email": "verlin_aniol@m0ck_fireEye.com"
+      },
+      "organization": "m0ckhex123",
+      "risk_score": null,
+      "derived_risk": "Low",
+      "hx_device_versions": [
+        "8.7.9.332828"
+      ],
+      "created_at": "2022-07-19 10:57:08",
+      "updated_at": "2022-07-19 11:04:01",
+      "alert_threat": "Unknown",
+      "alert_type_details": {
+        "detail": {
+          "rule": "blacklist",
+          "virus": "trojan",
+          "action": "notified",
+          "cnchost": "exude.com",
+          "srcipv4": "192.168.173.208",
+          "srcport": 54627,
+          "devicename": "m0ck-nxfe-instance"
+        },
+        "source": "192.168.173.208",
+        "summary": {
+          "virus": "trojan",
+          "action": "notified"
+        },
+        "destination": "exude.com"
+      },
+      "assigned_at": null,
+      "closed_reason": null,
+      "closed_state": "Unknown",
+      "confidence": "High",
+      "description": "A Domain Match event detects when a client has requested DNS to resolve a known malicious hostname. This alert just means that DNS was resolved. It does not indicate that any malicious payload was downloaded. Since this alert does not confirm a compromise, it will take additional work to determine the level of response needed. Several hits from the same source to unique hostnames may be a better indicator of a compromised machine. This activity will not be blocked if the NX is in block mode.",
+      "events_threshold": 1,
+      "external_ips": [],
+      "external_ips_count": 0,
+      "info_links": [],
+      "internal_ips": [],
+      "internal_ips_count": 0,
+      "is_suppressed": false,
+      "is_threat": false,
+      "is_tuned": false,
+      "kill_chain": [
+        "3 - Delivery",
+        "4 - Exploitation"
+      ],
+      "message": "FIREEYE NX ALERT [Domain-Match]",
+      "mitre_ids": [],
+      "metaclasses": {
+        "antivirus": 1
+      },
+      "products": {
+        "nx": 1
+      },
+      "risk": "Low",
+      "risk_order": 1,
+      "seconds_threshold": 60,
+      "severity": "Low",
+      "source_revision": 0,
+      "state": "Open",
+      "threat_changed_at": null,
+      "trigger_revision": 0,
+      "tuning_search": "",
+      "type": "fireeye_rule",
+      "asset_ids": [],
+      "threat_vector": []
+    },
+    {
+      "primary_id": 409,
+      "alert_type": {
+        "type_id": "e1401oi6o-j043-7d3h-3tvm-s49aadeyk32",
+        "category": "Network",
+        "detail_fields": [
+          "action",
+          "virus",
+          "srcipv4",
+          "srcisp",
+          "srcport",
+          "dstipv4",
+          "dstport",
+          "dstisp",
+          "dstcountry",
+          "rule",
+          "cnchost",
+          "devicename",
+          "md5",
+          "sha256",
+          "attackinfo",
+          "url",
+          "metaclass",
+          "class",
+          "meta_cbid",
+          "eventlog",
+          "intel_context"
+        ],
+        "is_default": false,
+        "is_internal": true,
+        "name": "NX Malware-Callback",
+        "summary_fields": [
+          "action",
+          "virus"
+        ],
+        "source": [
+          "srcipv4",
+          "srcipv6"
+        ],
+        "destination": [
+          "cnchost",
+          "dstipv4",
+          "dstipv6"
+        ],
+        "created_by": "abcdefghi-jklm-nopq-rstu-vwxyz123456",
+        "updated_by": "8i6q14da3-eb65-711i-i9ww-49g643m882h"
+      },
+      "assigned_to": null,
+      "context": null,
+      "created_by": {
+        "id": "abcdefghi-jklm-nopq-rstu-vwxyz123456",
+        "avatar": "https://m0ck_avatar_url.com/avatar/123456789",
+        "name": "M0Ck User",
+        "username": "m0ck_user",
+        "primary_email": "m0ck_email@m0ck_fireEye.com"
+      },
+      "events_count": 1,
+      "notes_count": 0,
+      "queues": [
+        "Default Queue"
+      ],
+      "source_url": "https://m0ck-nxfe-instance/event_stream/events_for_bot?ev_id=870267",
+      "updated_by": {
+        "id": "8i6q14da3-eb65-711i-i9ww-49g643m882h",
+        "avatar": "https://m0ck_avatar_url.com/avatar/424988576",
+        "name": "latrena malamud",
+        "username": "latrena_malamud",
+        "primary_email": "latrena_malamud@m0ck_fireEye.com"
+      },
+      "organization": "m0ckhex123",
+      "risk_score": null,
+      "derived_risk": "Low",
+      "hx_device_versions": [
+        "8.7.9.332828"
+      ],
+      "created_at": "2022-07-19 10:54:32",
+      "updated_at": "2022-07-19 11:04:01",
+      "alert_threat": "Unknown",
+      "alert_type_details": {
+        "detail": {
+          "rule": "bot-command",
+          "virus": "trojan",
+          "action": "blocked",
+          "dstisp": "tried telecom",
+          "cnchost": "extreme.excerpt.bit",
+          "dstipv4": "100.189.205.188",
+          "dstport": 80,
+          "srcipv4": "54.53.166.56",
+          "srcport": 62258,
+          "devicename": "m0ck-nxfe-instance",
+          "dstcountry": "brazil"
+        },
+        "source": "54.53.166.56",
+        "summary": {
+          "virus": "trojan",
+          "action": "blocked"
+        },
+        "destination": "extreme.excerpt.bit"
+      },
+      "assigned_at": null,
+      "closed_reason": null,
+      "closed_state": "Unknown",
+      "confidence": "High",
+      "description": "A Malware Callback alert detects network activity that matches a malware command and control (C2) signature. This should only fire when a host is already compromised. The recommended action is to investigate the host and possibly remove it from the network. This activity will be blocked if the NX is in block mode.",
+      "events_threshold": 1,
+      "external_ips": [],
+      "external_ips_count": 0,
+      "info_links": [],
+      "internal_ips": [],
+      "internal_ips_count": 0,
+      "is_suppressed": false,
+      "is_threat": false,
+      "is_tuned": false,
+      "kill_chain": [
+        "3 - Delivery",
+        "4 - Exploitation"
+      ],
+      "message": "FIREEYE NX ALERT [Malware-Callback]",
+      "mitre_ids": [],
+      "metaclasses": {
+        "antivirus": 1
+      },
+      "products": {
+        "nx": 1
+      },
+      "risk": "Critical",
+      "risk_order": 4,
+      "seconds_threshold": 60,
+      "severity": "High",
+      "source_revision": 0,
+      "state": "Open",
+      "threat_changed_at": null,
+      "trigger_revision": 0,
+      "tuning_search": "",
+      "type": "fireeye_rule",
+      "asset_ids": [],
+      "threat_vector": []
+    },
+    {
+      "primary_id": 699,
+      "alert_type": {
+        "type_id": "e1401oi6o-j043-7d3h-3tvm-s49aadeyk32",
+        "category": "Network",
+        "detail_fields": [
+          "action",
+          "virus",
+          "srcipv4",
+          "srcisp",
+          "srcport",
+          "dstipv4",
+          "dstport",
+          "dstisp",
+          "dstcountry",
+          "rule",
+          "cnchost",
+          "devicename",
+          "md5",
+          "sha256",
+          "attackinfo",
+          "url",
+          "metaclass",
+          "class",
+          "meta_cbid",
+          "eventlog",
+          "intel_context"
+        ],
+        "is_default": false,
+        "is_internal": true,
+        "name": "NX Malware-Callback",
+        "summary_fields": [
+          "action",
+          "virus"
+        ],
+        "source": [
+          "srcipv4",
+          "srcipv6"
+        ],
+        "destination": [
+          "cnchost",
+          "dstipv4",
+          "dstipv6"
+        ],
+        "created_by": "abcdefghi-jklm-nopq-rstu-vwxyz123456",
+        "updated_by": "8i6q14da3-eb65-711i-i9ww-49g643m882h"
+      },
+      "assigned_to": null,
+      "context": null,
+      "created_by": {
+        "id": "abcdefghi-jklm-nopq-rstu-vwxyz123456",
+        "avatar": "https://m0ck_avatar_url.com/avatar/123456789",
+        "name": "M0Ck User",
+        "username": "m0ck_user",
+        "primary_email": "m0ck_email@m0ck_fireEye.com"
+      },
+      "events_count": 1,
+      "notes_count": 0,
+      "queues": [
+        "Default Queue"
+      ],
+      "source_url": "https://m0ck-nxfe-instance/event_stream/events_for_bot?ev_id=546422",
+      "updated_by": {
+        "id": "8i6q14da3-eb65-711i-i9ww-49g643m882h",
+        "avatar": "https://m0ck_avatar_url.com/avatar/424988576",
+        "name": "latrena malamud",
+        "username": "latrena_malamud",
+        "primary_email": "latrena_malamud@m0ck_fireEye.com"
+      },
+      "organization": "m0ckhex123",
+      "risk_score": null,
+      "derived_risk": "Low",
+      "hx_device_versions": [
+        "8.7.9.332828"
+      ],
+      "created_at": "2022-07-19 10:54:48",
+      "updated_at": "2022-07-19 11:04:01",
+      "alert_threat": "Unknown",
+      "alert_type_details": {
+        "detail": {
+          "rule": "bot-command",
+          "virus": "trojan",
+          "action": "blocked",
+          "dstisp": "lucky phone inc.",
+          "cnchost": "apple.tried.net",
+          "dstipv4": "153.76.166.159",
+          "dstport": 21,
+          "srcipv4": "192.168.18.206",
+          "srcport": 53612,
+          "devicename": "m0ck-nxfe-instance",
+          "dstcountry": "ghana"
+        },
+        "source": "192.168.18.206",
+        "summary": {
+          "virus": "trojan",
+          "action": "blocked"
+        },
+        "destination": "apple.tried.net"
+      },
+      "assigned_at": null,
+      "closed_reason": null,
+      "closed_state": "Unknown",
+      "confidence": "High",
+      "description": "A Malware Callback alert detects network activity that matches a malware command and control (C2) signature. This should only fire when a host is already compromised. The recommended action is to investigate the host and possibly remove it from the network. This activity will be blocked if the NX is in block mode.",
+      "events_threshold": 1,
+      "external_ips": [],
+      "external_ips_count": 0,
+      "info_links": [],
+      "internal_ips": [],
+      "internal_ips_count": 0,
+      "is_suppressed": false,
+      "is_threat": false,
+      "is_tuned": false,
+      "kill_chain": [
+        "3 - Delivery",
+        "4 - Exploitation"
+      ],
+      "message": "FIREEYE NX ALERT [Malware-Callback]",
+      "mitre_ids": [],
+      "metaclasses": {
+        "antivirus": 1
+      },
+      "products": {
+        "nx": 1
+      },
+      "risk": "Critical",
+      "risk_order": 4,
+      "seconds_threshold": 60,
+      "severity": "High",
+      "source_revision": 0,
+      "state": "Open",
+      "threat_changed_at": null,
+      "trigger_revision": 0,
+      "tuning_search": "",
+      "type": "fireeye_rule",
+      "asset_ids": [],
+      "threat_vector": []
+    },
+    {
+      "primary_id": 238,
+      "alert_type": {
+        "type_id": "e1401oi6o-j043-7d3h-3tvm-s49aadeyk32",
+        "category": "Network",
+        "detail_fields": [
+          "action",
+          "virus",
+          "srcipv4",
+          "srcisp",
+          "srcport",
+          "dstipv4",
+          "dstport",
+          "dstisp",
+          "dstcountry",
+          "rule",
+          "cnchost",
+          "devicename",
+          "md5",
+          "sha256",
+          "attackinfo",
+          "url",
+          "metaclass",
+          "class",
+          "meta_cbid",
+          "eventlog",
+          "intel_context"
+        ],
+        "is_default": false,
+        "is_internal": true,
+        "name": "NX Malware-Callback",
+        "summary_fields": [
+          "action",
+          "virus"
+        ],
+        "source": [
+          "srcipv4",
+          "srcipv6"
+        ],
+        "destination": [
+          "cnchost",
+          "dstipv4",
+          "dstipv6"
+        ],
+        "created_by": "abcdefghi-jklm-nopq-rstu-vwxyz123456",
+        "updated_by": "xwwdvjw1c-g650-n9m4-9l14-9159vb42484"
+      },
+      "assigned_to": null,
+      "context": null,
+      "created_by": {
+        "id": "abcdefghi-jklm-nopq-rstu-vwxyz123456",
+        "avatar": "https://m0ck_avatar_url.com/avatar/123456789",
+        "name": "M0Ck User",
+        "username": "m0ck_user",
+        "primary_email": "m0ck_email@m0ck_fireEye.com"
+      },
+      "events_count": 1,
+      "notes_count": 0,
+      "queues": [
+        "Default Queue"
+      ],
+      "source_url": "https://m0ck-nxfe-instance/event_stream/events_for_bot?ev_id=649901",
+      "updated_by": {
+        "id": "xwwdvjw1c-g650-n9m4-9l14-9159vb42484",
+        "avatar": "https://m0ck_avatar_url.com/avatar/747135600",
+        "name": "ludia fetner",
+        "username": "ludia_fetner",
+        "primary_email": "ludia_fetner@m0ck_fireEye.com"
+      },
+      "organization": "m0ckhex123",
+      "risk_score": null,
+      "derived_risk": "Low",
+      "hx_device_versions": [
+        "8.7.9.332828"
+      ],
+      "created_at": "2022-07-19 10:54:50",
+      "updated_at": "2022-07-19 11:04:01",
+      "alert_threat": "Unknown",
+      "alert_type_details": {
+        "detail": {
+          "rule": "bot-command",
+          "virus": "tool.userminer",
+          "action": "blocked",
+          "dstisp": "blossom resistance exude inc.",
+          "cnchost": "145.146.162.15",
+          "dstipv4": "145.146.162.15",
+          "dstport": 443,
+          "srcipv4": "192.168.97.182",
+          "srcport": 61550,
+          "devicename": "m0ck-nxfe-instance",
+          "dstcountry": "bolivia"
+        },
+        "source": "192.168.97.182",
+        "summary": {
+          "virus": "tool.userminer",
+          "action": "blocked"
+        },
+        "destination": "145.146.162.15"
+      },
+      "assigned_at": null,
+      "closed_reason": null,
+      "closed_state": "Unknown",
+      "confidence": "High",
+      "description": "A Malware Callback alert detects network activity that matches a malware command and control (C2) signature. This should only fire when a host is already compromised. The recommended action is to investigate the host and possibly remove it from the network. This activity will be blocked if the NX is in block mode.",
+      "events_threshold": 1,
+      "external_ips": [],
+      "external_ips_count": 0,
+      "info_links": [],
+      "internal_ips": [],
+      "internal_ips_count": 0,
+      "is_suppressed": false,
+      "is_threat": false,
+      "is_tuned": false,
+      "kill_chain": [
+        "3 - Delivery",
+        "4 - Exploitation"
+      ],
+      "message": "FIREEYE NX ALERT [Malware-Callback]",
+      "mitre_ids": [],
+      "metaclasses": {
+        "antivirus": 1
+      },
+      "products": {
+        "nx": 1
+      },
+      "risk": "Critical",
+      "risk_order": 4,
+      "seconds_threshold": 60,
+      "severity": "High",
+      "source_revision": 0,
+      "state": "Open",
+      "threat_changed_at": null,
+      "trigger_revision": 0,
+      "tuning_search": "",
+      "type": "fireeye_rule",
+      "asset_ids": [],
+      "threat_vector": []
+    },
+    {
+      "primary_id": 55,
+      "alert_type": {
+        "type_id": "e1401oi6o-j043-7d3h-3tvm-s49aadeyk32",
+        "category": "Network",
+        "detail_fields": [
+          "action",
+          "virus",
+          "srcipv4",
+          "srcisp",
+          "srcport",
+          "dstipv4",
+          "dstport",
+          "dstisp",
+          "dstcountry",
+          "rule",
+          "cnchost",
+          "devicename",
+          "md5",
+          "sha256",
+          "attackinfo",
+          "url",
+          "metaclass",
+          "class",
+          "meta_cbid",
+          "eventlog",
+          "intel_context"
+        ],
+        "is_default": false,
+        "is_internal": true,
+        "name": "NX Malware-Callback",
+        "summary_fields": [
+          "action",
+          "virus"
+        ],
+        "source": [
+          "srcipv4",
+          "srcipv6"
+        ],
+        "destination": [
+          "cnchost",
+          "dstipv4",
+          "dstipv6"
+        ],
+        "created_by": "abcdefghi-jklm-nopq-rstu-vwxyz123456",
+        "updated_by": "71hiq7a14-a7mj-q2ae-v6a4-e8tfd6j1l40"
+      },
+      "assigned_to": null,
+      "context": null,
+      "created_by": {
+        "id": "abcdefghi-jklm-nopq-rstu-vwxyz123456",
+        "avatar": "https://m0ck_avatar_url.com/avatar/123456789",
+        "name": "M0Ck User",
+        "username": "m0ck_user",
+        "primary_email": "m0ck_email@m0ck_fireEye.com"
+      },
+      "events_count": 2,
+      "notes_count": 0,
+      "queues": [
+        "Default Queue"
+      ],
+      "source_url": "https://m0ck-nxfe-instance/event_stream/events_for_bot?ev_id=136439",
+      "updated_by": {
+        "id": "71hiq7a14-a7mj-q2ae-v6a4-e8tfd6j1l40",
+        "avatar": "https://m0ck_avatar_url.com/avatar/197167910",
+        "name": "quoc elijah",
+        "username": "quoc_elijah",
+        "primary_email": "quoc_elijah@m0ck_fireEye.com"
+      },
+      "organization": "m0ckhex123",
+      "risk_score": null,
+      "derived_risk": "Low",
+      "hx_device_versions": [
+        "8.7.9.332828"
+      ],
+      "created_at": "2022-07-19 10:55:09",
+      "updated_at": "2022-07-19 11:04:01",
+      "alert_threat": "Unknown",
+      "alert_type_details": {
+        "detail": {
+          "rule": "bot-command",
+          "virus": "tool.userminer",
+          "action": "blocked",
+          "dstisp": "exude telecom",
+          "cnchost": "90.221.105.19",
+          "dstipv4": "90.221.105.19",
+          "dstport": 873,
+          "srcipv4": "10.174.94.116",
+          "srcport": 51195,
+          "devicename": "m0ck-nxfe-instance",
+          "dstcountry": "kosovo"
+        },
+        "source": "10.174.94.116",
+        "summary": {
+          "virus": "tool.userminer",
+          "action": "blocked"
+        },
+        "destination": "90.221.105.19"
+      },
+      "assigned_at": null,
+      "closed_reason": null,
+      "closed_state": "Unknown",
+      "confidence": "High",
+      "description": "This rule alerts on Malware-Callback events generated by FireEye NX appliances.",
+      "events_threshold": 1,
+      "external_ips": [],
+      "external_ips_count": 0,
+      "info_links": [],
+      "internal_ips": [],
+      "internal_ips_count": 0,
+      "is_suppressed": false,
+      "is_threat": false,
+      "is_tuned": false,
+      "kill_chain": [
+        "6 - C2"
+      ],
+      "message": "FIREEYE NX ALERT [Malware-Callback]",
+      "mitre_ids": [],
+      "metaclasses": {
+        "antivirus": 2
+      },
+      "products": {
+        "nx": 2
+      },
+      "risk": "Medium",
+      "risk_order": 2,
+      "seconds_threshold": 60,
+      "severity": "Medium",
+      "source_revision": 0,
+      "state": "Open",
+      "threat_changed_at": null,
+      "trigger_revision": 0,
+      "tuning_search": "",
+      "type": "fireeye_rule",
+      "asset_ids": [],
+      "threat_vector": []
+    },
+    {
+      "primary_id": 286,
+      "alert_type": {
+        "type_id": "e1401oi6o-j043-7d3h-3tvm-s49aadeyk32",
+        "category": "Network",
+        "detail_fields": [
+          "action",
+          "virus",
+          "srcipv4",
+          "srcisp",
+          "srcport",
+          "dstipv4",
+          "dstport",
+          "dstisp",
+          "dstcountry",
+          "rule",
+          "cnchost",
+          "devicename",
+          "md5",
+          "sha256",
+          "attackinfo",
+          "url",
+          "metaclass",
+          "class",
+          "meta_cbid",
+          "eventlog",
+          "intel_context"
+        ],
+        "is_default": false,
+        "is_internal": true,
+        "name": "NX Malware-Callback",
+        "summary_fields": [
+          "action",
+          "virus"
+        ],
+        "source": [
+          "srcipv4",
+          "srcipv6"
+        ],
+        "destination": [
+          "cnchost",
+          "dstipv4",
+          "dstipv6"
+        ],
+        "created_by": "abcdefghi-jklm-nopq-rstu-vwxyz123456",
+        "updated_by": "6ml5780t2-27b3-u060-x050-4l2n1bl975q"
+      },
+      "assigned_to": null,
+      "context": null,
+      "created_by": {
+        "id": "abcdefghi-jklm-nopq-rstu-vwxyz123456",
+        "avatar": "https://m0ck_avatar_url.com/avatar/123456789",
+        "name": "M0Ck User",
+        "username": "m0ck_user",
+        "primary_email": "m0ck_email@m0ck_fireEye.com"
+      },
+      "events_count": 1,
+      "notes_count": 0,
+      "queues": [
+        "Default Queue"
+      ],
+      "source_url": "https://m0ck-nxfe-instance/event_stream/events_for_bot?ev_id=687411",
+      "updated_by": {
+        "id": "6ml5780t2-27b3-u060-x050-4l2n1bl975q",
+        "avatar": "https://m0ck_avatar_url.com/avatar/328998708",
+        "name": "antwonette ditsch",
+        "username": "antwonette_ditsch",
+        "primary_email": "antwonette_ditsch@m0ck_fireEye.com"
+      },
+      "organization": "m0ckhex123",
+      "risk_score": null,
+      "derived_risk": "Low",
+      "hx_device_versions": [
+        "8.7.9.332828"
+      ],
+      "created_at": "2022-07-19 10:54:46",
+      "updated_at": "2022-07-19 11:04:01",
+      "alert_threat": "Unknown",
+      "alert_type_details": {
+        "detail": {
+          "rule": "bot-command",
+          "virus": "tool.userminer",
+          "action": "blocked",
+          "dstisp": "tech blaze cyber llc.",
+          "cnchost": "153.228.19.207",
+          "dstipv4": "153.228.19.207",
+          "dstport": 21,
+          "srcipv4": "192.168.54.135",
+          "srcport": 62920,
+          "devicename": "m0ck-nxfe-instance",
+          "dstcountry": "guatemala"
+        },
+        "source": "192.168.54.135",
+        "summary": {
+          "virus": "tool.userminer",
+          "action": "blocked"
+        },
+        "destination": "153.228.19.207"
+      },
+      "assigned_at": null,
+      "closed_reason": null,
+      "closed_state": "Unknown",
+      "confidence": "High",
+      "description": "A Malware Callback alert detects network activity that matches a malware command and control (C2) signature. This should only fire when a host is already compromised. The recommended action is to investigate the host and possibly remove it from the network. This activity will be blocked if the NX is in block mode.",
+      "events_threshold": 1,
+      "external_ips": [],
+      "external_ips_count": 0,
+      "info_links": [],
+      "internal_ips": [],
+      "internal_ips_count": 0,
+      "is_suppressed": false,
+      "is_threat": false,
+      "is_tuned": false,
+      "kill_chain": [
+        "3 - Delivery",
+        "4 - Exploitation"
+      ],
+      "message": "FIREEYE NX ALERT [Malware-Callback]",
+      "mitre_ids": [],
+      "metaclasses": {
+        "antivirus": 1
+      },
+      "products": {
+        "nx": 1
+      },
+      "risk": "Critical",
+      "risk_order": 4,
+      "seconds_threshold": 60,
+      "severity": "High",
+      "source_revision": 0,
+      "state": "Open",
+      "threat_changed_at": null,
+      "trigger_revision": 0,
+      "tuning_search": "",
+      "type": "fireeye_rule",
+      "asset_ids": [],
+      "threat_vector": []
+    },
+    {
+      "primary_id": 70,
+      "alert_type": {
+        "type_id": "e1401oi6o-j043-7d3h-3tvm-s49aadeyk32",
+        "category": "Network",
+        "detail_fields": [
+          "action",
+          "virus",
+          "srcipv4",
+          "srcisp",
+          "srcport",
+          "dstipv4",
+          "dstport",
+          "dstisp",
+          "dstcountry",
+          "rule",
+          "cnchost",
+          "devicename",
+          "md5",
+          "sha256",
+          "attackinfo",
+          "url",
+          "metaclass",
+          "class",
+          "meta_cbid",
+          "eventlog",
+          "intel_context"
+        ],
+        "is_default": false,
+        "is_internal": true,
+        "name": "NX Malware-Callback",
+        "summary_fields": [
+          "action",
+          "virus"
+        ],
+        "source": [
+          "srcipv4",
+          "srcipv6"
+        ],
+        "destination": [
+          "cnchost",
+          "dstipv4",
+          "dstipv6"
+        ],
+        "created_by": "abcdefghi-jklm-nopq-rstu-vwxyz123456",
+        "updated_by": "89iiu2c8z-7lt6-3nj7-4x2b-88042x446l7"
+      },
+      "assigned_to": null,
+      "context": null,
+      "created_by": {
+        "id": "abcdefghi-jklm-nopq-rstu-vwxyz123456",
+        "avatar": "https://m0ck_avatar_url.com/avatar/123456789",
+        "name": "M0Ck User",
+        "username": "m0ck_user",
+        "primary_email": "m0ck_email@m0ck_fireEye.com"
+      },
+      "events_count": 1,
+      "notes_count": 0,
+      "queues": [
+        "Default Queue"
+      ],
+      "source_url": "https://m0ck-nxfe-instance/event_stream/events_for_bot?ev_id=182656",
+      "updated_by": {
+        "id": "89iiu2c8z-7lt6-3nj7-4x2b-88042x446l7",
+        "avatar": "https://m0ck_avatar_url.com/avatar/770922841",
+        "name": "arwen swords",
+        "username": "arwen_swords",
+        "primary_email": "arwen_swords@m0ck_fireEye.com"
+      },
+      "organization": "m0ckhex123",
+      "risk_score": null,
+      "derived_risk": "Low",
+      "hx_device_versions": [
+        "8.7.9.332828"
+      ],
+      "created_at": "2022-07-19 11:00:05",
+      "updated_at": "2022-07-19 11:04:01",
+      "alert_threat": "Unknown",
+      "alert_type_details": {
+        "detail": {
+          "rule": "bot-command",
+          "virus": "trojan",
+          "action": "blocked",
+          "dstisp": "hollow llc.",
+          "cnchost": "phone.net",
+          "dstipv4": "179.22.186.10",
+          "dstport": 22,
+          "srcipv4": "100.242.62.155",
+          "srcport": 58776,
+          "devicename": "m0ck-nxfe-instance",
+          "dstcountry": "italy"
+        },
+        "source": "100.242.62.155",
+        "summary": {
+          "virus": "trojan",
+          "action": "blocked"
+        },
+        "destination": "phone.net"
+      },
+      "assigned_at": null,
+      "closed_reason": null,
+      "closed_state": "Unknown",
+      "confidence": "High",
+      "description": "A Malware Callback alert detects network activity that matches a malware command and control (C2) signature. This should only fire when a host is already compromised. The recommended action is to investigate the host and possibly remove it from the network. This activity will be blocked if the NX is in block mode.",
+      "events_threshold": 1,
+      "external_ips": [],
+      "external_ips_count": 0,
+      "info_links": [],
+      "internal_ips": [],
+      "internal_ips_count": 0,
+      "is_suppressed": false,
+      "is_threat": false,
+      "is_tuned": false,
+      "kill_chain": [
+        "3 - Delivery",
+        "4 - Exploitation"
+      ],
+      "message": "FIREEYE NX ALERT [Malware-Callback]",
+      "mitre_ids": [],
+      "metaclasses": {
+        "antivirus": 1
+      },
+      "products": {
+        "nx": 1
+      },
+      "risk": "Critical",
+      "risk_order": 4,
+      "seconds_threshold": 60,
+      "severity": "High",
+      "source_revision": 0,
+      "state": "Open",
+      "threat_changed_at": null,
+      "trigger_revision": 0,
+      "tuning_search": "",
+      "type": "fireeye_rule",
+      "asset_ids": [],
+      "threat_vector": []
+    },
+    {
+      "primary_id": 425,
+      "alert_type": {
+        "type_id": "e1401oi6o-j043-7d3h-3tvm-s49aadeyk32",
+        "category": "Network",
+        "detail_fields": [
+          "action",
+          "virus",
+          "srcipv4",
+          "srcisp",
+          "srcport",
+          "dstipv4",
+          "dstport",
+          "dstisp",
+          "dstcountry",
+          "rule",
+          "cnchost",
+          "devicename",
+          "md5",
+          "sha256",
+          "attackinfo",
+          "url",
+          "metaclass",
+          "class",
+          "meta_cbid",
+          "eventlog",
+          "intel_context"
+        ],
+        "is_default": false,
+        "is_internal": true,
+        "name": "NX Malware-Callback",
+        "summary_fields": [
+          "action",
+          "virus"
+        ],
+        "source": [
+          "srcipv4",
+          "srcipv6"
+        ],
+        "destination": [
+          "cnchost",
+          "dstipv4",
+          "dstipv6"
+        ],
+        "created_by": "abcdefghi-jklm-nopq-rstu-vwxyz123456",
+        "updated_by": "9diss3pw2-3pde-5a70-pp5i-2sj5o1o56gq"
+      },
+      "assigned_to": null,
+      "context": null,
+      "created_by": {
+        "id": "abcdefghi-jklm-nopq-rstu-vwxyz123456",
+        "avatar": "https://m0ck_avatar_url.com/avatar/123456789",
+        "name": "M0Ck User",
+        "username": "m0ck_user",
+        "primary_email": "m0ck_email@m0ck_fireEye.com"
+      },
+      "events_count": 1,
+      "notes_count": 0,
+      "queues": [
+        "Default Queue"
+      ],
+      "source_url": "https://m0ck-nxfe-instance/event_stream/events_for_bot?ev_id=639885",
+      "updated_by": {
+        "id": "9diss3pw2-3pde-5a70-pp5i-2sj5o1o56gq",
+        "avatar": "https://m0ck_avatar_url.com/avatar/171189953",
+        "name": "tawana wanser",
+        "username": "tawana_wanser",
+        "primary_email": "tawana_wanser@m0ck_fireEye.com"
+      },
+      "organization": "m0ckhex123",
+      "risk_score": null,
+      "derived_risk": "Low",
+      "hx_device_versions": [
+        "8.7.9.332828"
+      ],
+      "created_at": "2022-07-19 10:56:16",
+      "updated_at": "2022-07-19 11:04:01",
+      "alert_threat": "Unknown",
+      "alert_type_details": {
+        "detail": {
+          "rule": "bot-command",
+          "virus": "trojan",
+          "action": "blocked",
+          "dstisp": "hollow talks everyone llc.",
+          "cnchost": "blaze.bloom.hollow.ph",
+          "dstipv4": "107.105.176.171",
+          "dstport": 465,
+          "srcipv4": "172.19.229.103",
+          "srcport": 51357,
+          "devicename": "m0ck-nxfe-instance",
+          "dstcountry": "papua new guinea"
+        },
+        "source": "172.19.229.103",
+        "summary": {
+          "virus": "trojan",
+          "action": "blocked"
+        },
+        "destination": "blaze.bloom.hollow.ph"
+      },
+      "assigned_at": null,
+      "closed_reason": null,
+      "closed_state": "Unknown",
+      "confidence": "High",
+      "description": "A Malware Callback alert detects network activity that matches a malware command and control (C2) signature. This should only fire when a host is already compromised. The recommended action is to investigate the host and possibly remove it from the network. This activity will be blocked if the NX is in block mode.",
+      "events_threshold": 1,
+      "external_ips": [],
+      "external_ips_count": 0,
+      "info_links": [],
+      "internal_ips": [],
+      "internal_ips_count": 0,
+      "is_suppressed": false,
+      "is_threat": false,
+      "is_tuned": false,
+      "kill_chain": [
+        "3 - Delivery",
+        "4 - Exploitation"
+      ],
+      "message": "FIREEYE NX ALERT [Malware-Callback]",
+      "mitre_ids": [],
+      "metaclasses": {
+        "antivirus": 1
+      },
+      "products": {
+        "nx": 1
+      },
+      "risk": "Critical",
+      "risk_order": 4,
+      "seconds_threshold": 60,
+      "severity": "High",
+      "source_revision": 0,
+      "state": "Open",
+      "threat_changed_at": null,
+      "trigger_revision": 0,
+      "tuning_search": "",
+      "type": "fireeye_rule",
+      "asset_ids": [],
+      "threat_vector": []
+    },
+    {
+      "primary_id": 878,
+      "alert_type": {
+        "type_id": "l2lg2142b-p05r-9q1f-05f3-2e67i0k0lau",
+        "category": "Network",
+        "detail_fields": [
+          "action",
+          "virus",
+          "srcipv4",
+          "srcisp",
+          "srcport",
+          "rule",
+          "cnchost",
+          "md5",
+          "sha256",
+          "attackinfo",
+          "url",
+          "devicename",
+          "meta_cbid",
+          "eventlog",
+          "intel_context"
+        ],
+        "is_default": false,
+        "is_internal": true,
+        "name": "NX Domain-Match",
+        "summary_fields": [
+          "action",
+          "virus"
+        ],
+        "source": [
+          "srcipv4",
+          "srcipv6"
+        ],
+        "destination": [
+          "cnchost",
+          "dstipv4",
+          "dstipv6"
+        ],
+        "created_by": "abcdefghi-jklm-nopq-rstu-vwxyz123456",
+        "updated_by": "86wjansok-mzhv-f3wz-fo89-e759t83396t"
+      },
+      "assigned_to": null,
+      "context": null,
+      "created_by": {
+        "id": "abcdefghi-jklm-nopq-rstu-vwxyz123456",
+        "avatar": "https://m0ck_avatar_url.com/avatar/123456789",
+        "name": "M0Ck User",
+        "username": "m0ck_user",
+        "primary_email": "m0ck_email@m0ck_fireEye.com"
+      },
+      "events_count": 1,
+      "notes_count": 0,
+      "queues": [
+        "Default Queue"
+      ],
+      "source_url": "https://m0ck-nxfe-instance/event_stream/events_for_bot?ev_id=128730",
+      "updated_by": {
+        "id": "86wjansok-mzhv-f3wz-fo89-e759t83396t",
+        "avatar": "https://m0ck_avatar_url.com/avatar/277026091",
+        "name": "halana deford",
+        "username": "halana_deford",
+        "primary_email": "halana_deford@m0ck_fireEye.com"
+      },
+      "organization": "m0ckhex123",
+      "risk_score": null,
+      "derived_risk": "Low",
+      "hx_device_versions": [
+        "8.7.9.332828"
+      ],
+      "created_at": "2022-07-19 10:57:32",
+      "updated_at": "2022-07-19 11:04:01",
+      "alert_threat": "Unknown",
+      "alert_type_details": {
+        "detail": {
+          "rule": "blacklist",
+          "virus": "trojan",
+          "action": "notified",
+          "cnchost": "nothing.crush.extreme.net",
+          "srcipv4": "192.168.190.108",
+          "srcport": 51330,
+          "devicename": "m0ck-nxfe-instance"
+        },
+        "source": "192.168.190.108",
+        "summary": {
+          "virus": "trojan",
+          "action": "notified"
+        },
+        "destination": "nothing.crush.extreme.net"
+      },
+      "assigned_at": null,
+      "closed_reason": null,
+      "closed_state": "Unknown",
+      "confidence": "High",
+      "description": "This rule alerts on Domain-Match events generated by FireEye NX appliances.",
+      "events_threshold": 1,
+      "external_ips": [],
+      "external_ips_count": 0,
+      "info_links": [],
+      "internal_ips": [],
+      "internal_ips_count": 0,
+      "is_suppressed": false,
+      "is_threat": false,
+      "is_tuned": false,
+      "kill_chain": [
+        "3 - Delivery",
+        "4 - Exploitation",
+        "6 - C2"
+      ],
+      "message": "FIREEYE NX ALERT [Domain-Match]",
+      "mitre_ids": [],
+      "metaclasses": {
+        "antivirus": 1
+      },
+      "products": {
+        "nx": 1
+      },
+      "risk": "Medium",
+      "risk_order": 2,
+      "seconds_threshold": 60,
+      "severity": "Medium",
+      "source_revision": 0,
+      "state": "Open",
+      "threat_changed_at": null,
+      "trigger_revision": 0,
+      "tuning_search": "",
+      "type": "fireeye_rule",
+      "asset_ids": [],
+      "threat_vector": []
+    },
+    {
+      "primary_id": 381,
+      "alert_type": {
+        "type_id": "l2lg2142b-p05r-9q1f-05f3-2e67i0k0lau",
+        "category": "Network",
+        "detail_fields": [
+          "action",
+          "virus",
+          "srcipv4",
+          "srcisp",
+          "srcport",
+          "rule",
+          "cnchost",
+          "md5",
+          "sha256",
+          "attackinfo",
+          "url",
+          "devicename",
+          "meta_cbid",
+          "eventlog",
+          "intel_context"
+        ],
+        "is_default": false,
+        "is_internal": true,
+        "name": "NX Domain-Match",
+        "summary_fields": [
+          "action",
+          "virus"
+        ],
+        "source": [
+          "srcipv4",
+          "srcipv6"
+        ],
+        "destination": [
+          "cnchost",
+          "dstipv4",
+          "dstipv6"
+        ],
+        "created_by": "abcdefghi-jklm-nopq-rstu-vwxyz123456",
+        "updated_by": "2v5p7fg2r-0z6c-60il-hp3p-p5z9539ujlw"
+      },
+      "assigned_to": null,
+      "context": null,
+      "created_by": {
+        "id": "abcdefghi-jklm-nopq-rstu-vwxyz123456",
+        "avatar": "https://m0ck_avatar_url.com/avatar/123456789",
+        "name": "M0Ck User",
+        "username": "m0ck_user",
+        "primary_email": "m0ck_email@m0ck_fireEye.com"
+      },
+      "events_count": 1,
+      "notes_count": 0,
+      "queues": [
+        "Default Queue"
+      ],
+      "source_url": "https://m0ck-nxfe-instance/event_stream/events_for_bot?ev_id=821636",
+      "updated_by": {
+        "id": "2v5p7fg2r-0z6c-60il-hp3p-p5z9539ujlw",
+        "avatar": "https://m0ck_avatar_url.com/avatar/162219966",
+        "name": "carnella jolly",
+        "username": "carnella_jolly",
+        "primary_email": "carnella_jolly@m0ck_fireEye.com"
+      },
+      "organization": "m0ckhex123",
+      "risk_score": null,
+      "derived_risk": "Low",
+      "hx_device_versions": [
+        "8.7.9.332828"
+      ],
+      "created_at": "2022-07-19 11:03:02",
+      "updated_at": "2022-07-19 11:04:01",
+      "alert_threat": "Unknown",
+      "alert_type_details": {
+        "detail": {
+          "rule": "blacklist",
+          "virus": "trojan",
+          "action": "notified",
+          "cnchost": "mash.com",
+          "srcipv4": "192.168.134.112",
+          "srcport": 54661,
+          "devicename": "m0ck-nxfe-instance"
+        },
+        "source": "192.168.134.112",
+        "summary": {
+          "virus": "trojan",
+          "action": "notified"
+        },
+        "destination": "mash.com"
+      },
+      "assigned_at": null,
+      "closed_reason": null,
+      "closed_state": "Unknown",
+      "confidence": "High",
+      "description": "A Domain Match event detects when a client has requested DNS to resolve a known malicious hostname. This alert just means that DNS was resolved. It does not indicate that any malicious payload was downloaded. Since this alert does not confirm a compromise, it will take additional work to determine the level of response needed. Several hits from the same source to unique hostnames may be a better indicator of a compromised machine. This activity will not be blocked if the NX is in block mode.",
+      "events_threshold": 1,
+      "external_ips": [],
+      "external_ips_count": 0,
+      "info_links": [],
+      "internal_ips": [],
+      "internal_ips_count": 0,
+      "is_suppressed": false,
+      "is_threat": false,
+      "is_tuned": false,
+      "kill_chain": [
+        "3 - Delivery",
+        "4 - Exploitation"
+      ],
+      "message": "FIREEYE NX ALERT [Domain-Match]",
+      "mitre_ids": [],
+      "metaclasses": {
+        "antivirus": 1
+      },
+      "products": {
+        "nx": 1
+      },
+      "risk": "Low",
+      "risk_order": 1,
+      "seconds_threshold": 60,
+      "severity": "Low",
+      "source_revision": 0,
+      "state": "Open",
+      "threat_changed_at": null,
+      "trigger_revision": 0,
+      "tuning_search": "",
+      "type": "fireeye_rule",
+      "asset_ids": [],
+      "threat_vector": []
+    },
+    {
+      "primary_id": 131,
+      "alert_type": {
+        "type_id": "l2lg2142b-p05r-9q1f-05f3-2e67i0k0lau",
+        "category": "Network",
+        "detail_fields": [
+          "action",
+          "virus",
+          "srcipv4",
+          "srcisp",
+          "srcport",
+          "rule",
+          "cnchost",
+          "md5",
+          "sha256",
+          "attackinfo",
+          "url",
+          "devicename",
+          "meta_cbid",
+          "eventlog",
+          "intel_context"
+        ],
+        "is_default": false,
+        "is_internal": true,
+        "name": "NX Domain-Match",
+        "summary_fields": [
+          "action",
+          "virus"
+        ],
+        "source": [
+          "srcipv4",
+          "srcipv6"
+        ],
+        "destination": [
+          "cnchost",
+          "dstipv4",
+          "dstipv6"
+        ],
+        "created_by": "abcdefghi-jklm-nopq-rstu-vwxyz123456",
+        "updated_by": "9diss3pw2-3pde-5a70-pp5i-2sj5o1o56gq"
+      },
+      "assigned_to": null,
+      "context": null,
+      "created_by": {
+        "id": "abcdefghi-jklm-nopq-rstu-vwxyz123456",
+        "avatar": "https://m0ck_avatar_url.com/avatar/123456789",
+        "name": "M0Ck User",
+        "username": "m0ck_user",
+        "primary_email": "m0ck_email@m0ck_fireEye.com"
+      },
+      "events_count": 1,
+      "notes_count": 0,
+      "queues": [
+        "Default Queue"
+      ],
+      "source_url": "https://m0ck-nxfe-instance/event_stream/events_for_bot?ev_id=164280",
+      "updated_by": {
+        "id": "9diss3pw2-3pde-5a70-pp5i-2sj5o1o56gq",
+        "avatar": "https://m0ck_avatar_url.com/avatar/171189953",
+        "name": "tawana wanser",
+        "username": "tawana_wanser",
+        "primary_email": "tawana_wanser@m0ck_fireEye.com"
+      },
+      "organization": "m0ckhex123",
+      "risk_score": null,
+      "derived_risk": "Low",
+      "hx_device_versions": [
+        "8.7.9.332828"
+      ],
+      "created_at": "2022-07-19 10:56:36",
+      "updated_at": "2022-07-19 11:04:01",
+      "alert_threat": "Unknown",
+      "alert_type_details": {
+        "detail": {
+          "rule": "blacklist",
+          "virus": "trojan",
+          "action": "notified",
+          "cnchost": "nothing.drip.blabber.com",
+          "srcipv4": "192.168.42.219",
+          "srcport": 50702,
+          "devicename": "m0ck-nxfe-instance"
+        },
+        "source": "192.168.42.219",
+        "summary": {
+          "virus": "trojan",
+          "action": "notified"
+        },
+        "destination": "nothing.drip.blabber.com"
+      },
+      "assigned_at": null,
+      "closed_reason": null,
+      "closed_state": "Unknown",
+      "confidence": "High",
+      "description": "A Domain Match event detects when a client has requested DNS to resolve a known malicious hostname. This alert just means that DNS was resolved. It does not indicate that any malicious payload was downloaded. Since this alert does not confirm a compromise, it will take additional work to determine the level of response needed. Several hits from the same source to unique hostnames may be a better indicator of a compromised machine. This activity will not be blocked if the NX is in block mode.",
+      "events_threshold": 1,
+      "external_ips": [],
+      "external_ips_count": 0,
+      "info_links": [],
+      "internal_ips": [],
+      "internal_ips_count": 0,
+      "is_suppressed": false,
+      "is_threat": false,
+      "is_tuned": false,
+      "kill_chain": [
+        "3 - Delivery",
+        "4 - Exploitation"
+      ],
+      "message": "FIREEYE NX ALERT [Domain-Match]",
+      "mitre_ids": [],
+      "metaclasses": {
+        "antivirus": 1
+      },
+      "products": {
+        "nx": 1
+      },
+      "risk": "Low",
+      "risk_order": 1,
+      "seconds_threshold": 60,
+      "severity": "Low",
+      "source_revision": 0,
+      "state": "Open",
+      "threat_changed_at": null,
+      "trigger_revision": 0,
+      "tuning_search": "",
+      "type": "fireeye_rule",
+      "asset_ids": [],
+      "threat_vector": []
+    },
+    {
+      "primary_id": 431,
+      "alert_type": {
+        "type_id": "l2lg2142b-p05r-9q1f-05f3-2e67i0k0lau",
+        "category": "Network",
+        "detail_fields": [
+          "action",
+          "virus",
+          "srcipv4",
+          "srcisp",
+          "srcport",
+          "rule",
+          "cnchost",
+          "md5",
+          "sha256",
+          "attackinfo",
+          "url",
+          "devicename",
+          "meta_cbid",
+          "eventlog",
+          "intel_context"
+        ],
+        "is_default": false,
+        "is_internal": true,
+        "name": "NX Domain-Match",
+        "summary_fields": [
+          "action",
+          "virus"
+        ],
+        "source": [
+          "srcipv4",
+          "srcipv6"
+        ],
+        "destination": [
+          "cnchost",
+          "dstipv4",
+          "dstipv6"
+        ],
+        "created_by": "abcdefghi-jklm-nopq-rstu-vwxyz123456",
+        "updated_by": "a9xmoi24t-58k9-41nk-ci8v-d6s305mf3dk"
+      },
+      "assigned_to": null,
+      "context": null,
+      "created_by": {
+        "id": "abcdefghi-jklm-nopq-rstu-vwxyz123456",
+        "avatar": "https://m0ck_avatar_url.com/avatar/123456789",
+        "name": "M0Ck User",
+        "username": "m0ck_user",
+        "primary_email": "m0ck_email@m0ck_fireEye.com"
+      },
+      "events_count": 2,
+      "notes_count": 0,
+      "queues": [
+        "Default Queue"
+      ],
+      "source_url": "https://m0ckhex123-cms-webui.hex01.helix.apps.fireeye.com/event_stream/events_for_bot?ev_id=1235938",
+      "updated_by": {
+        "id": "a9xmoi24t-58k9-41nk-ci8v-d6s305mf3dk",
+        "avatar": "https://m0ck_avatar_url.com/avatar/349209759",
+        "name": "ibn parisian",
+        "username": "ibn_parisian",
+        "primary_email": "ibn_parisian@m0ck_fireEye.com"
+      },
+      "organization": "m0ckhex123",
+      "risk_score": null,
+      "derived_risk": "Low",
+      "hx_device_versions": [
+        "8.2.2.732904",
+        "8.7.9.332828"
+      ],
+      "created_at": "2022-07-19 10:57:09",
+      "updated_at": "2022-07-19 11:04:01",
+      "alert_threat": "Unknown",
+      "alert_type_details": {
+        "detail": {
+          "rule": "blacklist",
+          "virus": "trojan",
+          "action": "notified",
+          "cnchost": "smart.net",
+          "srcipv4": "172.23.90.209",
+          "srcport": 64867,
+          "devicename": "m0ck-nxfe-instance"
+        },
+        "source": "172.23.90.209",
+        "summary": {
+          "virus": "trojan",
+          "action": "notified"
+        },
+        "destination": "smart.net"
+      },
+      "assigned_at": null,
+      "closed_reason": null,
+      "closed_state": "Unknown",
+      "confidence": "High",
+      "description": "This rule alerts on Domain-Match events generated by FireEye NX appliances.",
+      "events_threshold": 1,
+      "external_ips": [],
+      "external_ips_count": 0,
+      "info_links": [],
+      "internal_ips": [],
+      "internal_ips_count": 0,
+      "is_suppressed": false,
+      "is_threat": false,
+      "is_tuned": false,
+      "kill_chain": [
+        "3 - Delivery",
+        "4 - Exploitation",
+        "6 - C2"
+      ],
+      "message": "FIREEYE NX ALERT [Domain-Match]",
+      "mitre_ids": [],
+      "metaclasses": {
+        "antivirus": 2
+      },
+      "products": {
+        "nx": 2
+      },
+      "risk": "Medium",
+      "risk_order": 2,
+      "seconds_threshold": 60,
+      "severity": "Medium",
+      "source_revision": 0,
+      "state": "Open",
+      "threat_changed_at": null,
+      "trigger_revision": 0,
+      "tuning_search": "",
+      "type": "fireeye_rule",
+      "asset_ids": [],
+      "threat_vector": []
+    },
+    {
+      "primary_id": 339,
+      "alert_type": {
+        "type_id": "l2lg2142b-p05r-9q1f-05f3-2e67i0k0lau",
+        "category": "Network",
+        "detail_fields": [
+          "action",
+          "virus",
+          "srcipv4",
+          "srcisp",
+          "srcport",
+          "rule",
+          "cnchost",
+          "md5",
+          "sha256",
+          "attackinfo",
+          "url",
+          "devicename",
+          "meta_cbid",
+          "eventlog",
+          "intel_context"
+        ],
+        "is_default": false,
+        "is_internal": true,
+        "name": "NX Domain-Match",
+        "summary_fields": [
+          "action",
+          "virus"
+        ],
+        "source": [
+          "srcipv4",
+          "srcipv6"
+        ],
+        "destination": [
+          "cnchost",
+          "dstipv4",
+          "dstipv6"
+        ],
+        "created_by": "abcdefghi-jklm-nopq-rstu-vwxyz123456",
+        "updated_by": "rdz26749x-yq61-w7um-kb57-s1kirhw68i9"
+      },
+      "assigned_to": null,
+      "context": null,
+      "created_by": {
+        "id": "abcdefghi-jklm-nopq-rstu-vwxyz123456",
+        "avatar": "https://m0ck_avatar_url.com/avatar/123456789",
+        "name": "M0Ck User",
+        "username": "m0ck_user",
+        "primary_email": "m0ck_email@m0ck_fireEye.com"
+      },
+      "events_count": 1,
+      "notes_count": 0,
+      "queues": [
+        "Default Queue"
+      ],
+      "source_url": "https://m0ck-nxfe-instance/event_stream/events_for_bot?ev_id=360357",
+      "updated_by": {
+        "id": "rdz26749x-yq61-w7um-kb57-s1kirhw68i9",
+        "avatar": "https://m0ck_avatar_url.com/avatar/350682832",
+        "name": "amey glodowski",
+        "username": "amey_glodowski",
+        "primary_email": "amey_glodowski@m0ck_fireEye.com"
+      },
+      "organization": "m0ckhex123",
+      "risk_score": null,
+      "derived_risk": "Low",
+      "hx_device_versions": [
+        "8.7.9.332828"
+      ],
+      "created_at": "2022-07-19 11:02:03",
+      "updated_at": "2022-07-19 11:04:01",
+      "alert_threat": "Unknown",
+      "alert_type_details": {
+        "detail": {
+          "rule": "blacklist",
+          "virus": "trojan",
+          "action": "notified",
+          "cnchost": "repositories.net",
+          "srcipv4": "172.24.23.235",
+          "srcport": 63999,
+          "devicename": "m0ck-nxfe-instance"
+        },
+        "source": "172.24.23.235",
+        "summary": {
+          "virus": "trojan",
+          "action": "notified"
+        },
+        "destination": "repositories.net"
+      },
+      "assigned_at": null,
+      "closed_reason": null,
+      "closed_state": "Unknown",
+      "confidence": "High",
+      "description": "A Domain Match event detects when a client has requested DNS to resolve a known malicious hostname. This alert just means that DNS was resolved. It does not indicate that any malicious payload was downloaded. Since this alert does not confirm a compromise, it will take additional work to determine the level of response needed. Several hits from the same source to unique hostnames may be a better indicator of a compromised machine. This activity will not be blocked if the NX is in block mode.",
+      "events_threshold": 1,
+      "external_ips": [],
+      "external_ips_count": 0,
+      "info_links": [],
+      "internal_ips": [],
+      "internal_ips_count": 0,
+      "is_suppressed": false,
+      "is_threat": false,
+      "is_tuned": false,
+      "kill_chain": [
+        "3 - Delivery",
+        "4 - Exploitation"
+      ],
+      "message": "FIREEYE NX ALERT [Domain-Match]",
+      "mitre_ids": [],
+      "metaclasses": {
+        "antivirus": 1
+      },
+      "products": {
+        "nx": 1
+      },
+      "risk": "Low",
+      "risk_order": 1,
+      "seconds_threshold": 60,
+      "severity": "Low",
+      "source_revision": 0,
+      "state": "Open",
+      "threat_changed_at": null,
+      "trigger_revision": 0,
+      "tuning_search": "",
+      "type": "fireeye_rule",
+      "asset_ids": [],
+      "threat_vector": []
+    },
+    {
+      "primary_id": 967,
+      "alert_type": {
+        "type_id": "2najq31c3-ps99-74h1-qd85-gw869223ib7",
+        "category": "Network",
+        "detail_fields": [
+          "action",
+          "virus",
+          "srcipv4",
+          "srcisp",
+          "srcport",
+          "dstipv4",
+          "dstport",
+          "dstisp",
+          "dstcountry",
+          "rule",
+          "cnchost",
+          "md5",
+          "sha256",
+          "class",
+          "metaclass",
+          "attackinfo",
+          "url",
+          "devicename",
+          "meta_cbid",
+          "eventlog",
+          "intel_context"
+        ],
+        "is_default": false,
+        "is_internal": true,
+        "name": "NX Infection-Match",
+        "summary_fields": [
+          "action",
+          "virus"
+        ],
+        "source": [
+          "srcipv4",
+          "srcipv6"
+        ],
+        "destination": [
+          "cnchost",
+          "dstipv4",
+          "dstipv6"
+        ],
+        "created_by": "abcdefghi-jklm-nopq-rstu-vwxyz123456",
+        "updated_by": "di9028n43-m9as-49k9-p96e-92ycbjxu403"
+      },
+      "assigned_to": null,
+      "context": null,
+      "created_by": {
+        "id": "abcdefghi-jklm-nopq-rstu-vwxyz123456",
+        "avatar": "https://m0ck_avatar_url.com/avatar/123456789",
+        "name": "M0Ck User",
+        "username": "m0ck_user",
+        "primary_email": "m0ck_email@m0ck_fireEye.com"
+      },
+      "events_count": 1,
+      "notes_count": 0,
+      "queues": [
+        "Default Queue"
+      ],
+      "source_url": "https://m0ck-nxfe-instance/event_stream/events_for_bot?ev_id=657544",
+      "updated_by": {
+        "id": "di9028n43-m9as-49k9-p96e-92ycbjxu403",
+        "avatar": "https://m0ck_avatar_url.com/avatar/439033006",
+        "name": "leshae nakahara",
+        "username": "leshae_nakahara",
+        "primary_email": "leshae_nakahara@m0ck_fireEye.com"
+      },
+      "organization": "m0ckhex123",
+      "risk_score": null,
+      "derived_risk": "Low",
+      "hx_device_versions": [
+        "8.7.9.332828"
+      ],
+      "created_at": "2022-07-19 10:54:17",
+      "updated_at": "2022-07-19 11:04:01",
+      "alert_threat": "Unknown",
+      "alert_type_details": {
+        "detail": {
+          "rule": "bot-command",
+          "virus": "malicious.url",
+          "action": "blocked",
+          "dstisp": "talks resistance llc.",
+          "cnchost": "178.65.165.67",
+          "dstipv4": "178.65.165.67",
+          "dstport": 21,
+          "srcipv4": "182.76.221.211",
+          "srcport": 61400,
+          "devicename": "m0ck-nxfe-instance",
+          "dstcountry": "lithuania"
+        },
+        "source": "182.76.221.211",
+        "summary": {
+          "virus": "malicious.url",
+          "action": "blocked"
+        },
+        "destination": "178.65.165.67"
+      },
+      "assigned_at": null,
+      "closed_reason": null,
+      "closed_state": "Unknown",
+      "confidence": "High",
+      "description": "An Infection Match event detects when a host accesses a URL that is known to be malicious. These alerts mean that a URL was accessed, but does not confirm that malicious payload was actually downloaded. If malicious payload was downloaded, it still may not mean the host is compromised. For example, the malicious may contain an exploit the host is patched for. These events will be blocked if the NX is in block mode.",
+      "events_threshold": 1,
+      "external_ips": [],
+      "external_ips_count": 0,
+      "info_links": [],
+      "internal_ips": [],
+      "internal_ips_count": 0,
+      "is_suppressed": false,
+      "is_threat": false,
+      "is_tuned": false,
+      "kill_chain": [
+        "3 - Delivery",
+        "4 - Exploitation"
+      ],
+      "message": "FIREEYE NX ALERT [Infection-Match]",
+      "mitre_ids": [],
+      "metaclasses": {
+        "antivirus": 1
+      },
+      "products": {
+        "nx": 1
+      },
+      "risk": "Low",
+      "risk_order": 1,
+      "seconds_threshold": 60,
+      "severity": "Low",
+      "source_revision": 0,
+      "state": "Open",
+      "threat_changed_at": null,
+      "trigger_revision": 0,
+      "tuning_search": "",
+      "type": "fireeye_rule",
+      "asset_ids": [],
+      "threat_vector": []
+    },
+    {
+      "primary_id": 467,
+      "alert_type": {
+        "type_id": "e1401oi6o-j043-7d3h-3tvm-s49aadeyk32",
+        "category": "Network",
+        "detail_fields": [
+          "action",
+          "virus",
+          "srcipv4",
+          "srcisp",
+          "srcport",
+          "dstipv4",
+          "dstport",
+          "dstisp",
+          "dstcountry",
+          "rule",
+          "cnchost",
+          "devicename",
+          "md5",
+          "sha256",
+          "attackinfo",
+          "url",
+          "metaclass",
+          "class",
+          "meta_cbid",
+          "eventlog",
+          "intel_context"
+        ],
+        "is_default": false,
+        "is_internal": true,
+        "name": "NX Malware-Callback",
+        "summary_fields": [
+          "action",
+          "virus"
+        ],
+        "source": [
+          "srcipv4",
+          "srcipv6"
+        ],
+        "destination": [
+          "cnchost",
+          "dstipv4",
+          "dstipv6"
+        ],
+        "created_by": "abcdefghi-jklm-nopq-rstu-vwxyz123456",
+        "updated_by": "j6u4t5uqh-s7i3-7wv1-231f-13r850z29ru"
+      },
+      "assigned_to": null,
+      "context": null,
+      "created_by": {
+        "id": "abcdefghi-jklm-nopq-rstu-vwxyz123456",
+        "avatar": "https://m0ck_avatar_url.com/avatar/123456789",
+        "name": "M0Ck User",
+        "username": "m0ck_user",
+        "primary_email": "m0ck_email@m0ck_fireEye.com"
+      },
+      "events_count": 1,
+      "notes_count": 0,
+      "queues": [
+        "Default Queue"
+      ],
+      "source_url": "https://m0ck-nxfe-instance/event_stream/events_for_bot?ev_id=945038",
+      "updated_by": {
+        "id": "j6u4t5uqh-s7i3-7wv1-231f-13r850z29ru",
+        "avatar": "https://m0ck_avatar_url.com/avatar/677815354",
+        "name": "nalani betran",
+        "username": "nalani_betran",
+        "primary_email": "nalani_betran@m0ck_fireEye.com"
+      },
+      "organization": "m0ckhex123",
+      "risk_score": null,
+      "derived_risk": "Low",
+      "hx_device_versions": [
+        "8.7.9.332828"
+      ],
+      "created_at": "2022-07-19 10:57:49",
+      "updated_at": "2022-07-19 11:04:01",
+      "alert_threat": "Unknown",
+      "alert_type_details": {
+        "detail": {
+          "rule": "bot-command",
+          "virus": "trojan",
+          "action": "blocked",
+          "dstisp": "shadow uprising telecom",
+          "cnchost": "phone.drip.bit",
+          "dstipv4": "15.77.47.254",
+          "dstport": 465,
+          "srcipv4": "10.206.58.134",
+          "srcport": 57836,
+          "devicename": "m0ck-nxfe-instance",
+          "dstcountry": "tanzania"
+        },
+        "source": "10.206.58.134",
+        "summary": {
+          "virus": "trojan",
+          "action": "blocked"
+        },
+        "destination": "phone.drip.bit"
+      },
+      "assigned_at": null,
+      "closed_reason": null,
+      "closed_state": "Unknown",
+      "confidence": "High",
+      "description": "A Malware Callback alert detects network activity that matches a malware command and control (C2) signature. This should only fire when a host is already compromised. The recommended action is to investigate the host and possibly remove it from the network. This activity will be blocked if the NX is in block mode.",
+      "events_threshold": 1,
+      "external_ips": [],
+      "external_ips_count": 0,
+      "info_links": [],
+      "internal_ips": [],
+      "internal_ips_count": 0,
+      "is_suppressed": false,
+      "is_threat": false,
+      "is_tuned": false,
+      "kill_chain": [
+        "3 - Delivery",
+        "4 - Exploitation"
+      ],
+      "message": "FIREEYE NX ALERT [Malware-Callback]",
+      "mitre_ids": [],
+      "metaclasses": {
+        "antivirus": 1
+      },
+      "products": {
+        "nx": 1
+      },
+      "risk": "Critical",
+      "risk_order": 4,
+      "seconds_threshold": 60,
+      "severity": "High",
+      "source_revision": 0,
+      "state": "Open",
+      "threat_changed_at": null,
+      "trigger_revision": 0,
+      "tuning_search": "",
+      "type": "fireeye_rule",
+      "asset_ids": [],
+      "threat_vector": []
+    },
+    {
+      "primary_id": 461,
+      "alert_type": {
+        "type_id": "e1401oi6o-j043-7d3h-3tvm-s49aadeyk32",
+        "category": "Network",
+        "detail_fields": [
+          "action",
+          "virus",
+          "srcipv4",
+          "srcisp",
+          "srcport",
+          "dstipv4",
+          "dstport",
+          "dstisp",
+          "dstcountry",
+          "rule",
+          "cnchost",
+          "devicename",
+          "md5",
+          "sha256",
+          "attackinfo",
+          "url",
+          "metaclass",
+          "class",
+          "meta_cbid",
+          "eventlog",
+          "intel_context"
+        ],
+        "is_default": false,
+        "is_internal": true,
+        "name": "NX Malware-Callback",
+        "summary_fields": [
+          "action",
+          "virus"
+        ],
+        "source": [
+          "srcipv4",
+          "srcipv6"
+        ],
+        "destination": [
+          "cnchost",
+          "dstipv4",
+          "dstipv6"
+        ],
+        "created_by": "abcdefghi-jklm-nopq-rstu-vwxyz123456",
+        "updated_by": "2d3v31416-ygut-3fjw-908v-ax58d2xi688"
+      },
+      "assigned_to": null,
+      "context": null,
+      "created_by": {
+        "id": "abcdefghi-jklm-nopq-rstu-vwxyz123456",
+        "avatar": "https://m0ck_avatar_url.com/avatar/123456789",
+        "name": "M0Ck User",
+        "username": "m0ck_user",
+        "primary_email": "m0ck_email@m0ck_fireEye.com"
+      },
+      "events_count": 1,
+      "notes_count": 0,
+      "queues": [
+        "Default Queue"
+      ],
+      "source_url": "https://m0ck-nxfe-instance/event_stream/events_for_bot?ev_id=546611",
+      "updated_by": {
+        "id": "2d3v31416-ygut-3fjw-908v-ax58d2xi688",
+        "avatar": "https://m0ck_avatar_url.com/avatar/571713899",
+        "name": "aletta joh",
+        "username": "aletta_joh",
+        "primary_email": "aletta_joh@m0ck_fireEye.com"
+      },
+      "organization": "m0ckhex123",
+      "risk_score": null,
+      "derived_risk": "Low",
+      "hx_device_versions": [
+        "8.7.9.332828"
+      ],
+      "created_at": "2022-07-19 10:58:26",
+      "updated_at": "2022-07-19 11:04:01",
+      "alert_threat": "Unknown",
+      "alert_type_details": {
+        "detail": {
+          "rule": "bot-command",
+          "virus": "trojan",
+          "action": "blocked",
+          "dstisp": "communications inc.",
+          "cnchost": "nice.bit",
+          "dstipv4": "70.87.14.124",
+          "dstport": 587,
+          "srcipv4": "10.22.211.182",
+          "srcport": 61731,
+          "devicename": "m0ck-nxfe-instance",
+          "dstcountry": "czech republic"
+        },
+        "source": "10.22.211.182",
+        "summary": {
+          "virus": "trojan",
+          "action": "blocked"
+        },
+        "destination": "nice.bit"
+      },
+      "assigned_at": null,
+      "closed_reason": null,
+      "closed_state": "Unknown",
+      "confidence": "High",
+      "description": "A Malware Callback alert detects network activity that matches a malware command and control (C2) signature. This should only fire when a host is already compromised. The recommended action is to investigate the host and possibly remove it from the network. This activity will be blocked if the NX is in block mode.",
+      "events_threshold": 1,
+      "external_ips": [],
+      "external_ips_count": 0,
+      "info_links": [],
+      "internal_ips": [],
+      "internal_ips_count": 0,
+      "is_suppressed": false,
+      "is_threat": false,
+      "is_tuned": false,
+      "kill_chain": [
+        "3 - Delivery",
+        "4 - Exploitation"
+      ],
+      "message": "FIREEYE NX ALERT [Malware-Callback]",
+      "mitre_ids": [],
+      "metaclasses": {
+        "antivirus": 1
+      },
+      "products": {
+        "nx": 1
+      },
+      "risk": "Critical",
+      "risk_order": 4,
+      "seconds_threshold": 60,
+      "severity": "High",
+      "source_revision": 0,
+      "state": "Open",
+      "threat_changed_at": null,
+      "trigger_revision": 0,
+      "tuning_search": "",
+      "type": "fireeye_rule",
+      "asset_ids": [],
+      "threat_vector": []
+    },
+    {
+      "primary_id": 222,
+      "alert_type": {
+        "type_id": "l2lg2142b-p05r-9q1f-05f3-2e67i0k0lau",
+        "category": "Network",
+        "detail_fields": [
+          "action",
+          "virus",
+          "srcipv4",
+          "srcisp",
+          "srcport",
+          "rule",
+          "cnchost",
+          "md5",
+          "sha256",
+          "attackinfo",
+          "url",
+          "devicename",
+          "meta_cbid",
+          "eventlog",
+          "intel_context"
+        ],
+        "is_default": false,
+        "is_internal": true,
+        "name": "NX Domain-Match",
+        "summary_fields": [
+          "action",
+          "virus"
+        ],
+        "source": [
+          "srcipv4",
+          "srcipv6"
+        ],
+        "destination": [
+          "cnchost",
+          "dstipv4",
+          "dstipv6"
+        ],
+        "created_by": "abcdefghi-jklm-nopq-rstu-vwxyz123456",
+        "updated_by": "0us16eay0-l951-pjzj-zs38-3oeg05wvfh8"
+      },
+      "assigned_to": null,
+      "context": null,
+      "created_by": {
+        "id": "abcdefghi-jklm-nopq-rstu-vwxyz123456",
+        "avatar": "https://m0ck_avatar_url.com/avatar/123456789",
+        "name": "M0Ck User",
+        "username": "m0ck_user",
+        "primary_email": "m0ck_email@m0ck_fireEye.com"
+      },
+      "events_count": 1,
+      "notes_count": 0,
+      "queues": [
+        "Default Queue"
+      ],
+      "source_url": "https://m0ck-nxfe-instance/event_stream/events_for_bot?ev_id=786378",
+      "updated_by": {
+        "id": "0us16eay0-l951-pjzj-zs38-3oeg05wvfh8",
+        "avatar": "https://m0ck_avatar_url.com/avatar/285584087",
+        "name": "dontray grosland",
+        "username": "dontray_grosland",
+        "primary_email": "dontray_grosland@m0ck_fireEye.com"
+      },
+      "organization": "m0ckhex123",
+      "risk_score": null,
+      "derived_risk": "Low",
+      "hx_device_versions": [
+        "8.7.9.332828"
+      ],
+      "created_at": "2022-07-19 11:01:01",
+      "updated_at": "2022-07-19 11:04:01",
+      "alert_threat": "Unknown",
+      "alert_type_details": {
+        "detail": {
+          "rule": "blacklist",
+          "virus": "trojan",
+          "action": "notified",
+          "cnchost": "resistance.nothing.ph",
+          "srcipv4": "69.242.25.246",
+          "srcport": 54455,
+          "devicename": "m0ck-nxfe-instance"
+        },
+        "source": "69.242.25.246",
+        "summary": {
+          "virus": "trojan",
+          "action": "notified"
+        },
+        "destination": "resistance.nothing.ph"
+      },
+      "assigned_at": null,
+      "closed_reason": null,
+      "closed_state": "Unknown",
+      "confidence": "High",
+      "description": "This rule alerts on Domain-Match events generated by FireEye NX appliances.",
+      "events_threshold": 1,
+      "external_ips": [],
+      "external_ips_count": 0,
+      "info_links": [],
+      "internal_ips": [],
+      "internal_ips_count": 0,
+      "is_suppressed": false,
+      "is_threat": false,
+      "is_tuned": false,
+      "kill_chain": [
+        "3 - Delivery",
+        "4 - Exploitation",
+        "6 - C2"
+      ],
+      "message": "FIREEYE NX ALERT [Domain-Match]",
+      "mitre_ids": [],
+      "metaclasses": {
+        "antivirus": 1
+      },
+      "products": {
+        "nx": 1
+      },
+      "risk": "Medium",
+      "risk_order": 2,
+      "seconds_threshold": 60,
+      "severity": "Medium",
+      "source_revision": 0,
+      "state": "Open",
+      "threat_changed_at": null,
+      "trigger_revision": 0,
+      "tuning_search": "",
+      "type": "fireeye_rule",
+      "asset_ids": [],
+      "threat_vector": []
+    },
+    {
+      "primary_id": 292,
+      "alert_type": {
+        "type_id": "l2lg2142b-p05r-9q1f-05f3-2e67i0k0lau",
+        "category": "Network",
+        "detail_fields": [
+          "action",
+          "virus",
+          "srcipv4",
+          "srcisp",
+          "srcport",
+          "rule",
+          "cnchost",
+          "md5",
+          "sha256",
+          "attackinfo",
+          "url",
+          "devicename",
+          "meta_cbid",
+          "eventlog",
+          "intel_context"
+        ],
+        "is_default": false,
+        "is_internal": true,
+        "name": "NX Domain-Match",
+        "summary_fields": [
+          "action",
+          "virus"
+        ],
+        "source": [
+          "srcipv4",
+          "srcipv6"
+        ],
+        "destination": [
+          "cnchost",
+          "dstipv4",
+          "dstipv6"
+        ],
+        "created_by": "abcdefghi-jklm-nopq-rstu-vwxyz123456",
+        "updated_by": "7pinh3c5e-3gta-02c2-nsdr-11pxa30solo"
+      },
+      "assigned_to": null,
+      "context": null,
+      "created_by": {
+        "id": "abcdefghi-jklm-nopq-rstu-vwxyz123456",
+        "avatar": "https://m0ck_avatar_url.com/avatar/123456789",
+        "name": "M0Ck User",
+        "username": "m0ck_user",
+        "primary_email": "m0ck_email@m0ck_fireEye.com"
+      },
+      "events_count": 1,
+      "notes_count": 0,
+      "queues": [
+        "Default Queue"
+      ],
+      "source_url": "https://m0ck-nxfe-instance/event_stream/events_for_bot?ev_id=982737",
+      "updated_by": {
+        "id": "7pinh3c5e-3gta-02c2-nsdr-11pxa30solo",
+        "avatar": "https://m0ck_avatar_url.com/avatar/437154425",
+        "name": "nabila strunk",
+        "username": "nabila_strunk",
+        "primary_email": "nabila_strunk@m0ck_fireEye.com"
+      },
+      "organization": "m0ckhex123",
+      "risk_score": null,
+      "derived_risk": "Low",
+      "hx_device_versions": [
+        "8.7.9.332828"
+      ],
+      "created_at": "2022-07-19 10:56:41",
+      "updated_at": "2022-07-19 11:04:01",
+      "alert_threat": "Unknown",
+      "alert_type_details": {
+        "detail": {
+          "rule": "blacklist",
+          "virus": "trojan",
+          "action": "notified",
+          "cnchost": "lucky.exude.unlimited.net",
+          "srcipv4": "83.217.87.14",
+          "srcport": 57979,
+          "devicename": "m0ck-nxfe-instance"
+        },
+        "source": "83.217.87.14",
+        "summary": {
+          "virus": "trojan",
+          "action": "notified"
+        },
+        "destination": "lucky.exude.unlimited.net"
+      },
+      "assigned_at": null,
+      "closed_reason": null,
+      "closed_state": "Unknown",
+      "confidence": "High",
+      "description": "A Domain Match event detects when a client has requested DNS to resolve a known malicious hostname. This alert just means that DNS was resolved. It does not indicate that any malicious payload was downloaded. Since this alert does not confirm a compromise, it will take additional work to determine the level of response needed. Several hits from the same source to unique hostnames may be a better indicator of a compromised machine. This activity will not be blocked if the NX is in block mode.",
+      "events_threshold": 1,
+      "external_ips": [],
+      "external_ips_count": 0,
+      "info_links": [],
+      "internal_ips": [],
+      "internal_ips_count": 0,
+      "is_suppressed": false,
+      "is_threat": false,
+      "is_tuned": false,
+      "kill_chain": [
+        "3 - Delivery",
+        "4 - Exploitation"
+      ],
+      "message": "FIREEYE NX ALERT [Domain-Match]",
+      "mitre_ids": [],
+      "metaclasses": {
+        "antivirus": 1
+      },
+      "products": {
+        "nx": 1
+      },
+      "risk": "Low",
+      "risk_order": 1,
+      "seconds_threshold": 60,
+      "severity": "Low",
+      "source_revision": 0,
+      "state": "Open",
+      "threat_changed_at": null,
+      "trigger_revision": 0,
+      "tuning_search": "",
+      "type": "fireeye_rule",
+      "asset_ids": [],
+      "threat_vector": []
+    },
+    {
+      "primary_id": 395,
+      "alert_type": {
+        "type_id": "e1401oi6o-j043-7d3h-3tvm-s49aadeyk32",
+        "category": "Network",
+        "detail_fields": [
+          "action",
+          "virus",
+          "srcipv4",
+          "srcisp",
+          "srcport",
+          "dstipv4",
+          "dstport",
+          "dstisp",
+          "dstcountry",
+          "rule",
+          "cnchost",
+          "devicename",
+          "md5",
+          "sha256",
+          "attackinfo",
+          "url",
+          "metaclass",
+          "class",
+          "meta_cbid",
+          "eventlog",
+          "intel_context"
+        ],
+        "is_default": false,
+        "is_internal": true,
+        "name": "NX Malware-Callback",
+        "summary_fields": [
+          "action",
+          "virus"
+        ],
+        "source": [
+          "srcipv4",
+          "srcipv6"
+        ],
+        "destination": [
+          "cnchost",
+          "dstipv4",
+          "dstipv6"
+        ],
+        "created_by": "abcdefghi-jklm-nopq-rstu-vwxyz123456",
+        "updated_by": "r5qw09vu0-76o2-fyso-baam-keb900yjta2"
+      },
+      "assigned_to": null,
+      "context": null,
+      "created_by": {
+        "id": "abcdefghi-jklm-nopq-rstu-vwxyz123456",
+        "avatar": "https://m0ck_avatar_url.com/avatar/123456789",
+        "name": "M0Ck User",
+        "username": "m0ck_user",
+        "primary_email": "m0ck_email@m0ck_fireEye.com"
+      },
+      "events_count": 1,
+      "notes_count": 0,
+      "queues": [
+        "Default Queue"
+      ],
+      "source_url": "https://m0ck-nxfe-instance/event_stream/events_for_bot?ev_id=469731",
+      "updated_by": {
+        "id": "r5qw09vu0-76o2-fyso-baam-keb900yjta2",
+        "avatar": "https://m0ck_avatar_url.com/avatar/935113881",
+        "name": "serina vanstrander",
+        "username": "serina_vanstrander",
+        "primary_email": "serina_vanstrander@m0ck_fireEye.com"
+      },
+      "organization": "m0ckhex123",
+      "risk_score": null,
+      "derived_risk": "Low",
+      "hx_device_versions": [
+        "8.7.9.332828"
+      ],
+      "created_at": "2022-07-19 10:57:09",
+      "updated_at": "2022-07-19 11:04:01",
+      "alert_threat": "Unknown",
+      "alert_type_details": {
+        "detail": {
+          "rule": "bot-command",
+          "virus": "trojan",
+          "action": "blocked",
+          "dstisp": "public  shadow eclipse inc.",
+          "cnchost": "pour.smart.assassin.org",
+          "dstipv4": "108.239.212.135",
+          "dstport": 587,
+          "srcipv4": "192.168.181.9",
+          "srcport": 58347,
+          "devicename": "m0ck-nxfe-instance",
+          "dstcountry": "belarus"
+        },
+        "source": "192.168.181.9",
+        "summary": {
+          "virus": "trojan",
+          "action": "blocked"
+        },
+        "destination": "pour.smart.assassin.org"
+      },
+      "assigned_at": null,
+      "closed_reason": null,
+      "closed_state": "Unknown",
+      "confidence": "High",
+      "description": "A Malware Callback alert detects network activity that matches a malware command and control (C2) signature. This should only fire when a host is already compromised. The recommended action is to investigate the host and possibly remove it from the network. This activity will be blocked if the NX is in block mode.",
+      "events_threshold": 1,
+      "external_ips": [],
+      "external_ips_count": 0,
+      "info_links": [],
+      "internal_ips": [],
+      "internal_ips_count": 0,
+      "is_suppressed": false,
+      "is_threat": false,
+      "is_tuned": false,
+      "kill_chain": [
+        "3 - Delivery",
+        "4 - Exploitation"
+      ],
+      "message": "FIREEYE NX ALERT [Malware-Callback]",
+      "mitre_ids": [],
+      "metaclasses": {
+        "antivirus": 1
+      },
+      "products": {
+        "nx": 1
+      },
+      "risk": "Critical",
+      "risk_order": 4,
+      "seconds_threshold": 60,
+      "severity": "High",
+      "source_revision": 0,
+      "state": "Open",
+      "threat_changed_at": null,
+      "trigger_revision": 0,
+      "tuning_search": "",
+      "type": "fireeye_rule",
+      "asset_ids": [],
+      "threat_vector": []
+    },
+    {
+      "primary_id": 155,
+      "alert_type": {
+        "type_id": "e1401oi6o-j043-7d3h-3tvm-s49aadeyk32",
+        "category": "Network",
+        "detail_fields": [
+          "action",
+          "virus",
+          "srcipv4",
+          "srcisp",
+          "srcport",
+          "dstipv4",
+          "dstport",
+          "dstisp",
+          "dstcountry",
+          "rule",
+          "cnchost",
+          "devicename",
+          "md5",
+          "sha256",
+          "attackinfo",
+          "url",
+          "metaclass",
+          "class",
+          "meta_cbid",
+          "eventlog",
+          "intel_context"
+        ],
+        "is_default": false,
+        "is_internal": true,
+        "name": "NX Malware-Callback",
+        "summary_fields": [
+          "action",
+          "virus"
+        ],
+        "source": [
+          "srcipv4",
+          "srcipv6"
+        ],
+        "destination": [
+          "cnchost",
+          "dstipv4",
+          "dstipv6"
+        ],
+        "created_by": "abcdefghi-jklm-nopq-rstu-vwxyz123456",
+        "updated_by": "24221u7v4-17qo-wr16-p65l-oi57zzh4nk8"
+      },
+      "assigned_to": null,
+      "context": null,
+      "created_by": {
+        "id": "abcdefghi-jklm-nopq-rstu-vwxyz123456",
+        "avatar": "https://m0ck_avatar_url.com/avatar/123456789",
+        "name": "M0Ck User",
+        "username": "m0ck_user",
+        "primary_email": "m0ck_email@m0ck_fireEye.com"
+      },
+      "events_count": 1,
+      "notes_count": 0,
+      "queues": [
+        "Default Queue"
+      ],
+      "source_url": "https://m0ck-nxfe-instance/event_stream/events_for_bot?ev_id=444490",
+      "updated_by": {
+        "id": "24221u7v4-17qo-wr16-p65l-oi57zzh4nk8",
+        "avatar": "https://m0ck_avatar_url.com/avatar/239635188",
+        "name": "jermine duber",
+        "username": "jermine_duber",
+        "primary_email": "jermine_duber@m0ck_fireEye.com"
+      },
+      "organization": "m0ckhex123",
+      "risk_score": null,
+      "derived_risk": "Low",
+      "hx_device_versions": [
+        "8.7.9.332828"
+      ],
+      "created_at": "2022-07-19 11:00:51",
+      "updated_at": "2022-07-19 11:04:01",
+      "alert_threat": "Unknown",
+      "alert_type_details": {
+        "detail": {
+          "rule": "bot-command",
+          "virus": "trojan",
+          "action": "blocked",
+          "dstisp": "shroud repositories talks inc.",
+          "cnchost": "eclipse.net",
+          "dstipv4": "132.52.9.215",
+          "dstport": 443,
+          "srcipv4": "172.29.33.6",
+          "srcport": 63665,
+          "devicename": "m0ck-nxfe-instance",
+          "dstcountry": "malta"
+        },
+        "source": "172.29.33.6",
+        "summary": {
+          "virus": "trojan",
+          "action": "blocked"
+        },
+        "destination": "eclipse.net"
+      },
+      "assigned_at": null,
+      "closed_reason": null,
+      "closed_state": "Unknown",
+      "confidence": "High",
+      "description": "A Malware Callback alert detects network activity that matches a malware command and control (C2) signature. This should only fire when a host is already compromised. The recommended action is to investigate the host and possibly remove it from the network. This activity will be blocked if the NX is in block mode.",
+      "events_threshold": 1,
+      "external_ips": [],
+      "external_ips_count": 0,
+      "info_links": [],
+      "internal_ips": [],
+      "internal_ips_count": 0,
+      "is_suppressed": false,
+      "is_threat": false,
+      "is_tuned": false,
+      "kill_chain": [
+        "3 - Delivery",
+        "4 - Exploitation"
+      ],
+      "message": "FIREEYE NX ALERT [Malware-Callback]",
+      "mitre_ids": [],
+      "metaclasses": {
+        "antivirus": 1
+      },
+      "products": {
+        "nx": 1
+      },
+      "risk": "Critical",
+      "risk_order": 4,
+      "seconds_threshold": 60,
+      "severity": "High",
+      "source_revision": 0,
+      "state": "Open",
+      "threat_changed_at": null,
+      "trigger_revision": 0,
+      "tuning_search": "",
+      "type": "fireeye_rule",
+      "asset_ids": [],
+      "threat_vector": []
+    },
+    {
+      "primary_id": 542,
+      "alert_type": {
+        "type_id": "2najq31c3-ps99-74h1-qd85-gw869223ib7",
+        "category": "Network",
+        "detail_fields": [
+          "action",
+          "virus",
+          "srcipv4",
+          "srcisp",
+          "srcport",
+          "dstipv4",
+          "dstport",
+          "dstisp",
+          "dstcountry",
+          "rule",
+          "cnchost",
+          "md5",
+          "sha256",
+          "class",
+          "metaclass",
+          "attackinfo",
+          "url",
+          "devicename",
+          "meta_cbid",
+          "eventlog",
+          "intel_context"
+        ],
+        "is_default": false,
+        "is_internal": true,
+        "name": "NX Infection-Match",
+        "summary_fields": [
+          "action",
+          "virus"
+        ],
+        "source": [
+          "srcipv4",
+          "srcipv6"
+        ],
+        "destination": [
+          "cnchost",
+          "dstipv4",
+          "dstipv6"
+        ],
+        "created_by": "abcdefghi-jklm-nopq-rstu-vwxyz123456",
+        "updated_by": "6q2tlqer5-xi12-7krm-9767-56092c2hcya"
+      },
+      "assigned_to": null,
+      "context": null,
+      "created_by": {
+        "id": "abcdefghi-jklm-nopq-rstu-vwxyz123456",
+        "avatar": "https://m0ck_avatar_url.com/avatar/123456789",
+        "name": "M0Ck User",
+        "username": "m0ck_user",
+        "primary_email": "m0ck_email@m0ck_fireEye.com"
+      },
+      "events_count": 1,
+      "notes_count": 0,
+      "queues": [
+        "Default Queue"
+      ],
+      "source_url": "https://m0ck-nxfe-instance/event_stream/events_for_bot?ev_id=312264",
+      "updated_by": {
+        "id": "6q2tlqer5-xi12-7krm-9767-56092c2hcya",
+        "avatar": "https://m0ck_avatar_url.com/avatar/980430808",
+        "name": "merced outzen",
+        "username": "merced_outzen",
+        "primary_email": "merced_outzen@m0ck_fireEye.com"
+      },
+      "organization": "m0ckhex123",
+      "risk_score": null,
+      "derived_risk": "Low",
+      "hx_device_versions": [
+        "8.7.9.332828"
+      ],
+      "created_at": "2022-07-19 11:00:29",
+      "updated_at": "2022-07-19 11:04:01",
+      "alert_threat": "Unknown",
+      "alert_type_details": {
+        "detail": {
+          "rule": "bot-command",
+          "virus": "malicious.url",
+          "action": "blocked",
+          "dstisp": "smart blabber tech llc.",
+          "cnchost": "100.0.31.55",
+          "dstipv4": "100.0.31.55",
+          "dstport": 443,
+          "srcipv4": "40.182.59.214",
+          "srcport": 55384,
+          "devicename": "m0ck-nxfe-instance",
+          "dstcountry": "honduras"
+        },
+        "source": "40.182.59.214",
+        "summary": {
+          "virus": "malicious.url",
+          "action": "blocked"
+        },
+        "destination": "100.0.31.55"
+      },
+      "assigned_at": null,
+      "closed_reason": null,
+      "closed_state": "Unknown",
+      "confidence": "High",
+      "description": "An Infection Match event detects when a host accesses a URL that is known to be malicious. These alerts mean that a URL was accessed, but does not confirm that malicious payload was actually downloaded. If malicious payload was downloaded, it still may not mean the host is compromised. For example, the malicious may contain an exploit the host is patched for. These events will be blocked if the NX is in block mode.",
+      "events_threshold": 1,
+      "external_ips": [],
+      "external_ips_count": 0,
+      "info_links": [],
+      "internal_ips": [],
+      "internal_ips_count": 0,
+      "is_suppressed": false,
+      "is_threat": false,
+      "is_tuned": false,
+      "kill_chain": [
+        "3 - Delivery",
+        "4 - Exploitation"
+      ],
+      "message": "FIREEYE NX ALERT [Infection-Match]",
+      "mitre_ids": [],
+      "metaclasses": {
+        "antivirus": 1
+      },
+      "products": {
+        "nx": 1
+      },
+      "risk": "Low",
+      "risk_order": 1,
+      "seconds_threshold": 60,
+      "severity": "Low",
+      "source_revision": 0,
+      "state": "Open",
+      "threat_changed_at": null,
+      "trigger_revision": 0,
+      "tuning_search": "",
+      "type": "fireeye_rule",
+      "asset_ids": [],
+      "threat_vector": []
+    }
+  ]
+}
